@@ -2,6 +2,7 @@
 
 import { X } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 interface SidebarProps {
   isOpen: boolean
@@ -11,8 +12,6 @@ interface SidebarProps {
 export default function Sidebar({ isOpen, onClose }: SidebarProps) {
   return (
     <>
-      {isOpen && <div className="fixed inset-0 bg-black bg-opacity-50 z-40" onClick={onClose} />}
-
       {/* Sidebar */}
       <div
         className={`
@@ -36,30 +35,58 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
           {/* Navigation */}
           <nav className="space-y-6">
             <div>
+              <h3 className="font-serif text-sm font-semibold text-gray-900 mb-3">SHOP BY</h3>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <Link
+                    href="/products?filter=for-her"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    For Her
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products?filter=for-him"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    For Him
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div>
               <h3 className="font-serif text-sm font-semibold text-gray-900 mb-3">COLLECTIONS</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-                    New In
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-                    Bestsellers
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/collections/the-prestige-collection"
+                  <Link
+                    href="/products?filter=new-in"
                     className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
                   >
-                    The Prestige Collection
-                  </a>
+                    New In
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link
+                    href="/products?filter=bestseller"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    Bestsellers
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products?filter=iconic"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
                     Iconic
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -68,29 +95,49 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
               <h3 className="font-serif text-sm font-semibold text-gray-900 mb-3">JEWELRY</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link
+                    href="/products?filter=rings"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
                     Rings
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link
+                    href="/products?filter=necklaces"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
                     Necklaces
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link
+                    href="/products?filter=earrings"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
                     Earrings
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link
+                    href="/products?filter=bracelets"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
                     Bracelets
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link
+                    href="/products?filter=pendants"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
                     Pendants
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -99,24 +146,40 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
               <h3 className="font-serif text-sm font-semibold text-gray-900 mb-3">MATERIALS</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link
+                    href="/products?filter=gold"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
                     Gold
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link
+                    href="/products?filter=silver"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
                     Silver
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link
+                    href="/products?filter=pressed-flowers"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
                     Pressed Flowers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link
+                    href="/products?filter=natural-elements"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
                     Natural Elements
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -124,24 +187,24 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             <div className="pt-6 border-t border-gray-200">
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors" onClick={onClose}>
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors" onClick={onClose}>
                     Contact
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors" onClick={onClose}>
                     Size Guide
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors" onClick={onClose}>
                     Care Instructions
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
