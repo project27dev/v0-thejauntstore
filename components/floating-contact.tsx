@@ -32,7 +32,7 @@ export default function FloatingContact() {
             <div className="space-y-2">
               {/* WhatsApp */}
               <a
-                href="https://wa.me/1234567890" // Replace with actual WhatsApp number
+                href="https://wa.me/+8801328225528" // Replace with actual WhatsApp number
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors group"
