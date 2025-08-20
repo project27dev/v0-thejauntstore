@@ -1,0 +1,52 @@
+import { Button } from "@/components/ui/button"
+
+const products = [
+  {
+    name: "Botanical Pendant Collection",
+    price: "6,550 RON",
+    image: "/jewelry-collection-1.jpeg", // replaced placeholder with actual botanical jewelry image
+  },
+  {
+    name: "Pressed Flower Ovals",
+    price: "From 5,250 RON",
+    image: "/jewelry-pendants-oval.jpeg", // replaced placeholder with oval pendants image
+  },
+  {
+    name: "Colorful Flower Pendants",
+    price: "5,950 RON",
+    image: "/jewelry-colorful-flowers.jpeg", // replaced placeholder with colorful flower jewelry
+  },
+  {
+    name: "Heart & Nature Pendants",
+    price: "From 6,750 RON",
+    image: "/jewelry-heart-pendants.jpeg", // replaced placeholder with heart-shaped pendants
+  },
+]
+
+export default function NewInSection() {
+  return (
+    <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        {products.map((product, index) => (
+          <div key={index} className="text-center">
+            <div className="bg-gray-100 rounded-full aspect-square mb-4 overflow-hidden">
+              <img
+                src={product.image || "/placeholder.svg"}
+                alt={product.name}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <h3 className="font-medium text-sm mb-2">{product.name}</h3>
+            <p className="text-sm text-gray-600">{product.price}</p>
+          </div>
+        ))}
+      </div>
+
+      <div className="text-center mt-8">
+        <Button variant="link" className="text-sm underline">
+          View all
+        </Button>
+      </div>
+    </section>
+  )
+}
