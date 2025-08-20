@@ -10,20 +10,36 @@ export default function GridScrollSection() {
 
   return (
     <section className="w-full">
-      {/* Outer grid takes 200vh so bottom row can scroll up */}
-      <div className="grid grid-cols-1 md:grid-cols-2 auto-rows-[100vh] h-[200vh] md:h-[200vh]">
-        
-        {/* Top row (2 images side by side) → sticky as one unit */}
-        <div className="md:col-span-2 sticky top-0 grid grid-cols-1 md:grid-cols-2 h-screen">
-          <div className="relative">
+
+      {/* Mobile: stacked 1x4 */}
+      <div className="md:hidden grid grid-cols-1 gap-4">
+        {[images[0], images[1], images[1], images[0]].map((img, i) => (
+          <div key={i} className="relative w-full aspect-[4/3]">
+            <Image
+              src={img.src}
+              alt={img.alt}
+              fill
+              className="object-cover"
+              priority={i === 0}
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Desktop: 2x2 with sticky top row */}
+      <div className="hidden md:grid grid-cols-2 grid-rows-2 h-[200vh]">
+        {/* Top row sticky */}
+        <div className="col-span-2 sticky top-0 grid grid-cols-2 h-screen">
+          <div className="relative h-screen">
             <Image
               src={images[0].src}
               alt={images[0].alt}
               fill
               className="object-cover"
+              priority
             />
           </div>
-          <div className="relative">
+          <div className="relative h-screen">
             <Image
               src={images[1].src}
               alt={images[1].alt}
@@ -33,8 +49,8 @@ export default function GridScrollSection() {
           </div>
         </div>
 
-        {/* Bottom row (2 images side by side) → scroll up */}
-        <div className="relative">
+        {/* Bottom row scrolls up */}
+        <div className="relative h-screen">
           <Image
             src={images[1].src}
             alt={images[1].alt}
@@ -42,7 +58,7 @@ export default function GridScrollSection() {
             className="object-cover"
           />
         </div>
-        <div className="relative">
+        <div className="relative h-screen">
           <Image
             src={images[0].src}
             alt={images[0].alt}
