@@ -50,7 +50,7 @@ export default function FloatingContact() {
 
               {/* Instagram */}
               <a
-                href="https://instagram.com/thejauntstore" // Replace with actual Instagram handle
+                href="https://instagram.com/thejauntstore" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors group"

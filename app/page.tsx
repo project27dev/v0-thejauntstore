@@ -8,6 +8,7 @@ import BestsellersSection from "@/components/bestsellers-section"
 import NewsletterPopup from "@/components/newsletter-popup"
 import Footer from "@/components/footer"
 import FloatingContact from "@/components/floating-contact"
+import GridScrollSection from "@/components/test"
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
       <IconicSection />
       <CategoryGrid />
       <BestsellersSection />
+      <GridScrollSection />
       <NewsletterPopup />
       <Footer />
       <FloatingContact />
