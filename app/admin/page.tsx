@@ -36,7 +36,7 @@ const ProductAdminForm = () => {
   };
 
   const availableTags = Object.keys(titleMap);
-  const categories = ['rings', 'necklaces', 'earrings', 'bracelets', 'pendants'];
+  const categories = ['rings', 'necklaces', 'earrings', 'bracelets', 'pendants', 'matching-sets'];
 
   const handleImageUpload = (e) => {
     const files = Array.from(e.target.files);
