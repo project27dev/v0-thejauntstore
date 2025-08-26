@@ -4,6 +4,7 @@ import { Search, ShoppingBag, Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
 import Sidebar from "./sidebar"
+import Link from "next/link"
 
 export default function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
@@ -23,10 +24,12 @@ export default function Header() {
             </Button>
 
             <div className="flex-1 flex justify-center md:justify-start">
-              <div className="flex items-center space-x-2">
+              <Link href="/" className="flex items-center space-x-2">
                 <img src="/bee-logo.png" alt="The Jaunt Store" className="h-8 w-8" />
-                <h1 className="font-serif text-2xl font-bold tracking-wider">THEJAUNTSTORE</h1>
-              </div>
+                <h1 className="font-serif text-2xl font-bold tracking-wider">
+                  THEJAUNTSTORE
+                </h1>
+              </Link>
             </div>
 
             {/* Right side */}

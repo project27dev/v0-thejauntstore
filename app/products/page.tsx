@@ -13,7 +13,7 @@ export default function ProductsPage() {
   const filter = searchParams.get("filter")
 
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(products)
-  const [sortBy, setSortBy] = useState<"name" | "price-low" | "price-high">("name")
+  const [sortBy, setSortBy] = useState<"relevance" | "price-low" | "price-high">("relevance")
 
   useEffect(() => {
     let filtered = products
@@ -29,7 +29,7 @@ export default function ProductsPage() {
           return a.price - b.price
         case "price-high":
           return b.price - a.price
-        case "name":
+        case "relevance":
         default:
           return a.name.localeCompare(b.name)
       }
@@ -47,15 +47,18 @@ export default function ProductsPage() {
       "new-in": "New In",
       bestseller: "Bestsellers",
       iconic: "Iconic Collection",
+      showcase: "Showcase",
       rings: "Rings",
       necklaces: "Necklaces",
       earrings: "Earrings",
       bracelets: "Bracelets",
       pendants: "Pendants",
+      "matching-sets": "Matching Sets",
       gold: "Gold Jewelry",
       silver: "Silver Jewelry",
       "pressed-flowers": "Pressed Flower Jewelry",
       "natural-elements": "Natural Elements",
+      resin: "Resin"
     }
 
     return titleMap[filter] || filter.charAt(0).toUpperCase() + filter.slice(1)
@@ -91,13 +94,14 @@ export default function ProductsPage() {
             <select
               id="sort"
               value={sortBy}
-              onChange={(e) => setSortBy(e.target.value as "name" | "price-low" | "price-high")}
+              onChange={(e) => setSortBy(e.target.value as "relevance" | "price-low" | "price-high")}
               className="border border-gray-300 rounded-md px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900"
             >
-              <option value="name">Name</option>
+              <option value="relevance">Relevance</option>
               <option value="price-low">Price: Low to High</option>
               <option value="price-high">Price: High to Low</option>
             </select>
+
           </div>
         </div>
       </div>
@@ -115,7 +119,7 @@ export default function ProductsPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {filteredProducts.map((product) => (
               <div key={product.id} className="group">
-                <div className="aspect-square bg-gray-100 rounded-full overflow-hidden mb-4 group-hover:shadow-lg transition-shadow duration-300">
+                <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden mb-4 group-hover:shadow-lg transition-shadow duration-300">
                   <img
                     src={product.images[0] || "/placeholder.svg"}
                     alt={product.name}

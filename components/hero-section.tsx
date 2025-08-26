@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function HeroSection() {
   const [current, setCurrent] = useState(0)
   const images = [
-    { src: "/hero-woman-rings.jpeg", alt: "Woman showing gold rings" },
+    { src: "/hero-woman-1.JPG", alt: "Woman showing gold rings" },
     { src: "/hero-woman-pearls.jpeg", alt: "Woman wearing pearl necklace" },
   ]
 

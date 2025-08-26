@@ -6,7 +6,7 @@ export default function PrestigeSection() {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="order-2 md:order-1">
           <img
-            src="/elegant-woman-jewelry.png"
+            src="/0072A850-3BD4-4EE2-B332-B2E5B9266295.jpg"
             alt="Model wearing prestige jewelry"
             className="w-full h-auto rounded-lg"
           />

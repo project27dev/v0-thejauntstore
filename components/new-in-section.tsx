@@ -25,11 +25,11 @@ const products = [
 
 export default function NewInSection() {
   return (
-    <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+    <section className="py-16 px-4 md:px-8 max-w-8xl mx-auto">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
         {products.map((product, index) => (
           <div key={index} className="text-center">
-            <div className="bg-gray-100 rounded-full aspect-square mb-4 overflow-hidden">
+            <div className="bg-gray-100 rounded-md aspect-square mb-4 overflow-hidden">
               <img
                 src={product.image || "/placeholder.svg"}
                 alt={product.name}

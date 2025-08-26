@@ -24,8 +24,11 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
           {/* Close button */}
           <div className="flex justify-between items-center mb-8">
             <div className="flex items-center space-x-2">
-              <img src="/bee-logo.png" alt="The Jaunt Store" className="h-6 w-6" />
-              <h2 className="font-serif text-lg font-bold">THEJAUNTSTORE</h2>
+              <Link href="/" className="flex items-center space-x-2">
+                <img src="/bee-logo.png" alt="The Jaunt Store" className="h-6 w-6" />
+                <h2 className="font-serif text-lg font-bold">THEJAUNTSTORE</h2>
+              </Link>
+
             </div>
             <Button variant="ghost" size="sm" onClick={onClose}>
               <X className="h-5 w-5" />
@@ -86,6 +89,16 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     onClick={onClose}
                   >
                     Iconic
+                  </Link>
+                  
+                </li>
+                      <li>
+                  <Link
+                    href="/products?filter=showcase"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    Showcase
                   </Link>
                 </li>
               </ul>
@@ -181,6 +194,15 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     Natural Elements
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/products?filter=resin"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    Resin
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -206,6 +228,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     Care Instructions
                   </Link>
                 </li>
+
               </ul>
             </div>
           </nav>
