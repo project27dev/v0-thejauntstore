@@ -12,33 +12,7 @@ export interface Product {
 }
 
 export const products: Product[] = [
-  {
-    id: 999,
-    name: "Test",
-    price: 0.04,
-    images: ["https://i.ibb.co/4RRqJ31s/istockphoto-814423752-612x612.jpg"],
-    tags: ["earrings","rings"],
-    description: "1234",
-    category: "necklaces",
-  },
-  {
-    id: 998,
-    name: "asd",
-    price: 0.03,
-    images: ["https://i.ibb.co/wh8L7bNM/istockphoto-814423752-612x612.jpg"],
-    tags: ["for-her","new-in","iconic"],
-    description: "asd",
-    category: "necklaces",
-  },
-  {
-    id: 666,
-    name: "test",
-    price: 0.02,
-    images: ["https://i.ibb.co/wh8L7bNM/istockphoto-814423752-612x612.jpg"],
-    tags: ["bracelets","for-her","new-in","iconic"],
-    description: "qweq",
-    category: "necklaces",
-  }
+
 ];
 
 // Helper function to filter products by tag
