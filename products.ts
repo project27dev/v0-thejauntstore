@@ -1,5 +1,5 @@
 // Products Configuration File
-// Last updated: 2026-01-13T08:39:41.249Z
+// Last updated: 2026-01-13T08:42:31.088Z
 
 export interface Product {
   id: number
@@ -19,6 +19,15 @@ export const products: Product[] = [
     images: ["https://i.ibb.co/4RRqJ31s/istockphoto-814423752-612x612.jpg"],
     tags: ["earrings","rings"],
     description: "1234",
+    category: "necklaces",
+  },
+  {
+    id: 998,
+    name: "asd",
+    price: 0.03,
+    images: ["https://i.ibb.co/wh8L7bNM/istockphoto-814423752-612x612.jpg"],
+    tags: ["for-her","new-in","iconic"],
+    description: "asd",
     category: "necklaces",
   }
 ];
