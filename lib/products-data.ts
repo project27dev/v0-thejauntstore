@@ -759,7 +759,6 @@ export const editableProducts: Product[] = [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.56 PM.jpeg"
     ],
     "tags": [
-      "pendants",
       "for-her",
       "bestseller",
       "gold"
@@ -775,7 +774,6 @@ export const editableProducts: Product[] = [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.57 PM.jpeg"
     ],
     "tags": [
-      "pendants",
       "botanical",
       "bestseller",
       "for-her",
