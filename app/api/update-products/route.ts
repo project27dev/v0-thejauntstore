@@ -3,7 +3,7 @@ import { Octokit } from "@octokit/rest"
 
 const GITHUB_REPO = process.env.GITHUB_REPO || ""
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main"
-const GITHUB_FILE_PATH = process.env.GITHUB_FILE_PATH || "lib/products.ts"
+const GITHUB_FILE_PATH = process.env.GITHUB_FILE_PATH || "lib/products-data.ts"
 const GITHUB_TOKEN = process.env.GITHUB_PAT
 
 export async function POST(req: NextRequest) {
