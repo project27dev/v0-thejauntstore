@@ -24,6 +24,9 @@ const tagOptions: { [key: string]: string } = {
   "pressed-flowers": "Pressed Flower Jewelry",
   "natural-elements": "Natural Elements",
   resin: "Resin",
+  minimalist: "Minimalist",
+  botanical: "Botanical",
+  handmade: "Handmade",
 }
 
 export default function AdminProductsGrid() {
@@ -140,28 +143,34 @@ export default function AdminProductsGrid() {
   onClick={async () => {
     if (!confirm("Commit these updates to GitHub?")) return
 
+    console.log("Sending products:", products)
+
     try {
-      const updatedContent = `export const products = ${JSON.stringify(products, null, 2)}`
       const response = await fetch("/api/update-products", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content: updatedContent }),
+        body: JSON.stringify({ editableProducts: products }),
       })
 
+      console.log("Response status:", response.status)
       const data = await response.json()
+      console.log("Response data:", data)
+      
       if (data.success) {
         alert("✅ Products updated on GitHub!")
       } else {
         alert("❌ Update failed: " + data.error)
       }
     } catch (err) {
-      console.error(err)
-      alert("❌ Error updating GitHub.")
+      console.error("Error:", err)
+      alert("❌ Error updating GitHub: " + (err as Error).message)
     }
   }}
+  className="mt-6"
 >
-  Save & Commit
+  Save & Commit to GitHub
 </Button>
+
 
 
     </div>
