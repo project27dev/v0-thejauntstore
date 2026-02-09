@@ -14,7 +14,7 @@ export interface Product {
 export const editableProducts: Product[] = [
   {
     "id": 100,
-    "name": "Botanical Gold Ring ",
+    "name": "Botanical Gold Ring Octave",
     "price": 4,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.49 AM.jpeg"
@@ -23,8 +23,7 @@ export const editableProducts: Product[] = [
       "for-her",
       "minimalist",
       "botanical",
-      "new-in",
-      "rings"
+      "new-in"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -56,7 +55,8 @@ export const editableProducts: Product[] = [
       "new-in",
       "minimalist",
       "botanical",
-      "rings"
+      "rings",
+      "handmade"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -72,8 +72,7 @@ export const editableProducts: Product[] = [
       "new-in",
       "minimalist",
       "gold",
-      "botanical",
-      "rings"
+      "botanical"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -89,8 +88,7 @@ export const editableProducts: Product[] = [
       "botanical",
       "for-her",
       "gold",
-      "pressed-flowers",
-      "rings"
+      "pressed-flowers"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -138,8 +136,7 @@ export const editableProducts: Product[] = [
       "handmade",
       "gold",
       "minimalist",
-      "new-in",
-      "rings"
+      "new-in"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -155,8 +152,7 @@ export const editableProducts: Product[] = [
       "botanical",
       "gold",
       "minimalist",
-      "bestseller",
-      "rings"
+      "bestseller"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -172,8 +168,7 @@ export const editableProducts: Product[] = [
       "new-in",
       "bestseller",
       "botanical",
-      "for-her",
-      "rings"
+      "for-her"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -189,8 +184,7 @@ export const editableProducts: Product[] = [
       "minimalist",
       "pressed-flowers",
       "for-her",
-      "botanical",
-      "rings"
+      "botanical"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -222,8 +216,7 @@ export const editableProducts: Product[] = [
       "bestseller",
       "botanical",
       "pressed-flowers",
-      "for-her",
-      "rings"
+      "for-her"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -239,8 +232,7 @@ export const editableProducts: Product[] = [
       "new-in",
       "botanical",
       "pressed-flowers",
-      "minimalist",
-      "rings"
+      "minimalist"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -256,8 +248,7 @@ export const editableProducts: Product[] = [
       "new-in",
       "bestseller",
       "botanical",
-      "pressed-flowers",
-      "rings"
+      "pressed-flowers"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -273,8 +264,7 @@ export const editableProducts: Product[] = [
       "pressed-flowers",
       "minimalist",
       "handmade",
-      "gold",
-      "rings"
+      "gold"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -729,8 +719,8 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 219,
-    "name": "Rose flower Jhumka ",
-    "price": 699,
+    "name": "Garden Essence Pendant",
+    "price": 4,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.55 PM.jpeg"
     ],
@@ -738,18 +728,15 @@ export const editableProducts: Product[] = [
       "pendants",
       "pressed-flowers",
       "for-her",
-      "gold",
-      "resin",
-      "handmade",
-      "iconic"
+      "gold"
     ],
-    "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
-    "category": "earrings"
+    "description": "A simple handcrafted botanical pendant featuring natural elements.",
+    "category": "pendants"
   },
   {
     "id": 220,
-    "name": "Wildflower Gold Jhumka ",
-    "price": 699,
+    "name": "Wildflower Gold Pendant",
+    "price": 4,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.56 PM.jpeg"
     ],
@@ -759,13 +746,13 @@ export const editableProducts: Product[] = [
       "bestseller",
       "gold"
     ],
-    "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
-    "category": "earrings"
+    "description": "A simple handcrafted botanical pendant featuring natural elements.",
+    "category": "pendants"
   },
   {
     "id": 221,
-    "name": "Real Flower Jhumka ",
-    "price": 699,
+    "name": "Pressed Flower Pendant",
+    "price": 4,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.57 PM.jpeg"
     ],
@@ -773,12 +760,9 @@ export const editableProducts: Product[] = [
       "pendants",
       "botanical",
       "bestseller",
-      "for-her",
-      "iconic",
-      "handmade",
-      "resin"
+      "for-her"
     ],
-    "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
-    "category": "earrings"
+    "description": "A simple handcrafted botanical pendant featuring natural elements.",
+    "category": "pendants"
   }
 ]
