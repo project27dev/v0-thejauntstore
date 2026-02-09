@@ -729,8 +729,8 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 219,
-    "name": "Garden Essence Pendant",
-    "price": 4,
+    "name": "Rose flower Jhumka ",
+    "price": 699,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.55 PM.jpeg"
     ],
@@ -738,15 +738,18 @@ export const editableProducts: Product[] = [
       "pendants",
       "pressed-flowers",
       "for-her",
-      "gold"
+      "gold",
+      "resin",
+      "handmade",
+      "iconic"
     ],
-    "description": "A simple handcrafted botanical pendant featuring natural elements.",
-    "category": "pendants"
+    "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
+    "category": "earrings"
   },
   {
     "id": 220,
-    "name": "Wildflower Gold Pendant",
-    "price": 4,
+    "name": "Wildflower Gold Jhumka ",
+    "price": 699,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.56 PM.jpeg"
     ],
@@ -756,13 +759,13 @@ export const editableProducts: Product[] = [
       "bestseller",
       "gold"
     ],
-    "description": "A simple handcrafted botanical pendant featuring natural elements.",
-    "category": "pendants"
+    "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
+    "category": "earrings"
   },
   {
     "id": 221,
-    "name": "Pressed Flower Pendant",
-    "price": 4,
+    "name": "Real Flower Jhumka ",
+    "price": 699,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.57 PM.jpeg"
     ],
@@ -770,9 +773,12 @@ export const editableProducts: Product[] = [
       "pendants",
       "botanical",
       "bestseller",
-      "for-her"
+      "for-her",
+      "iconic",
+      "handmade",
+      "resin"
     ],
-    "description": "A simple handcrafted botanical pendant featuring natural elements.",
-    "category": "pendants"
+    "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
+    "category": "earrings"
   }
 ]
