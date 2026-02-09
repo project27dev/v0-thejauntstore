@@ -14,7 +14,7 @@ export interface Product {
 export const editableProducts: Product[] = [
   {
     "id": 100,
-    "name": "Botanical Gold Ring Octave",
+    "name": "Botanical Gold Ring ",
     "price": 4,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.49 AM.jpeg"
@@ -23,7 +23,8 @@ export const editableProducts: Product[] = [
       "for-her",
       "minimalist",
       "botanical",
-      "new-in"
+      "new-in",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -55,8 +56,7 @@ export const editableProducts: Product[] = [
       "new-in",
       "minimalist",
       "botanical",
-      "rings",
-      "handmade"
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -72,7 +72,8 @@ export const editableProducts: Product[] = [
       "new-in",
       "minimalist",
       "gold",
-      "botanical"
+      "botanical",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -88,7 +89,8 @@ export const editableProducts: Product[] = [
       "botanical",
       "for-her",
       "gold",
-      "pressed-flowers"
+      "pressed-flowers",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -136,7 +138,8 @@ export const editableProducts: Product[] = [
       "handmade",
       "gold",
       "minimalist",
-      "new-in"
+      "new-in",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -152,7 +155,8 @@ export const editableProducts: Product[] = [
       "botanical",
       "gold",
       "minimalist",
-      "bestseller"
+      "bestseller",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -168,7 +172,8 @@ export const editableProducts: Product[] = [
       "new-in",
       "bestseller",
       "botanical",
-      "for-her"
+      "for-her",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -184,7 +189,8 @@ export const editableProducts: Product[] = [
       "minimalist",
       "pressed-flowers",
       "for-her",
-      "botanical"
+      "botanical",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -216,7 +222,8 @@ export const editableProducts: Product[] = [
       "bestseller",
       "botanical",
       "pressed-flowers",
-      "for-her"
+      "for-her",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -232,7 +239,8 @@ export const editableProducts: Product[] = [
       "new-in",
       "botanical",
       "pressed-flowers",
-      "minimalist"
+      "minimalist",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -248,7 +256,8 @@ export const editableProducts: Product[] = [
       "new-in",
       "bestseller",
       "botanical",
-      "pressed-flowers"
+      "pressed-flowers",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -264,7 +273,8 @@ export const editableProducts: Product[] = [
       "pressed-flowers",
       "minimalist",
       "handmade",
-      "gold"
+      "gold",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
