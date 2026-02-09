@@ -1,10 +1,10 @@
-// products.ts
+// products.ts — never overwritten
+
 import { Product, editableProducts } from "./products-data"
 
-// Use the editableProducts as the main products array
+// Use editableProducts as the main products array
 export const products: Product[] = [...editableProducts]
 
-// Helper functions
 export function getProductsByTag(tag: string): Product[] {
   return products.filter((product) => product.tags.includes(tag))
 }
