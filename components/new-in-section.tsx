@@ -1,25 +1,26 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 const products = [
   {
     name: "Botanical Pendant Collection",
     price: "6,550 RON",
-    image: "/jewelry-collection-1.jpeg", // replaced placeholder with actual botanical jewelry image
+    image: "/3.jpg", // replaced placeholder with actual botanical jewelry image
   },
   {
     name: "Pressed Flower Ovals",
     price: "From 5,250 RON",
-    image: "/jewelry-pendants-oval.jpeg", // replaced placeholder with oval pendants image
+    image: "/4.jpg", // replaced placeholder with oval pendants image
   },
   {
     name: "Colorful Flower Pendants",
     price: "5,950 RON",
-    image: "/jewelry-colorful-flowers.jpeg", // replaced placeholder with colorful flower jewelry
+    image: "/5.jpg", // replaced placeholder with colorful flower jewelry
   },
   {
     name: "Heart & Nature Pendants",
     price: "From 6,750 RON",
-    image: "/jewelry-heart-pendants.jpeg", // replaced placeholder with heart-shaped pendants
+    image: "/6.jpg", // replaced placeholder with heart-shaped pendants
   },
 ]
 
@@ -43,9 +44,11 @@ export default function NewInSection() {
       </div>
 
       <div className="text-center mt-8">
-        <Button variant="link" className="text-sm underline">
-          View all
-        </Button>
+        <Link href="/products?filter=new-in">
+          <Button variant="link" className="text-sm underline">
+            View all
+          </Button>
+        </Link>
       </div>
     </section>
   )

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function PrestigeSection() {
   return (
@@ -6,7 +7,7 @@ export default function PrestigeSection() {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="order-2 md:order-1">
           <img
-            src="/0072A850-3BD4-4EE2-B332-B2E5B9266295.jpg"
+            src="7.jpg"
             alt="Model wearing prestige jewelry"
             className="w-full h-auto rounded-lg"
           />
@@ -17,7 +18,10 @@ export default function PrestigeSection() {
           <p className="text-gray-600 mb-8 leading-relaxed">
             Discover Exquisite Handcrafted Jewelry Made of Authentic 925 Sterling Silver
           </p>
-          <Button className="bg-black text-white px-8 py-3 hover:bg-gray-800">Shop</Button>
+          <Link href="/products?iconic">
+
+            <Button className="bg-black text-white px-8 py-3 hover:bg-gray-800">Shop</Button>
+          </Link>
         </div>
       </div>
     </section>
