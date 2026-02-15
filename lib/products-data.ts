@@ -14,8 +14,8 @@ export interface Product {
 export const editableProducts: Product[] = [
   {
     "id": 100,
-    "name": "Botanical Gold Ring Octave",
-    "price": 4,
+    "name": "Botanical Gold Ring ",
+    "price": 249,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.49 AM.jpeg"
     ],
@@ -23,7 +23,8 @@ export const editableProducts: Product[] = [
       "for-her",
       "minimalist",
       "botanical",
-      "new-in"
+      "new-in",
+      "rings"
     ],
     "description": "A simple handcrafted botanical ring featuring natural elements.",
     "category": "rings"
@@ -31,7 +32,7 @@ export const editableProducts: Product[] = [
   {
     "id": 101,
     "name": "Minimal Bloom Ring",
-    "price": 4,
+    "price": 249,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.50 AM.jpeg"
     ],
@@ -41,13 +42,13 @@ export const editableProducts: Product[] = [
       "for-her",
       "bestseller"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 102,
     "name": "Vintage Botanical Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.51 AM.jpeg"
     ],
@@ -57,13 +58,13 @@ export const editableProducts: Product[] = [
       "botanical",
       "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 103,
     "name": "Garden Essence Ring",
-    "price": 4,
+    "price": 249,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.52 AM (1).jpeg"
     ],
@@ -71,15 +72,16 @@ export const editableProducts: Product[] = [
       "new-in",
       "minimalist",
       "gold",
-      "botanical"
+      "botanical",
+      "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 104,
     "name": "Floral Resin Ring",
-    "price": 4,
+    "price": 249,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.52 AM.jpeg"
     ],
@@ -87,15 +89,16 @@ export const editableProducts: Product[] = [
       "botanical",
       "for-her",
       "gold",
-      "pressed-flowers"
+      "pressed-flowers",
+      "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 105,
     "name": "Floral Resin Ring",
-    "price": 4,
+    "price": 249,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.54 AM.jpeg"
     ],
@@ -105,13 +108,13 @@ export const editableProducts: Product[] = [
       "rings",
       "for-her"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 106,
     "name": "Wildflower Gold Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.55 AM.jpeg"
     ],
@@ -121,13 +124,13 @@ export const editableProducts: Product[] = [
       "rings",
       "for-her"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 107,
     "name": "Floral Resin Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.57 AM.jpeg"
     ],
@@ -135,15 +138,16 @@ export const editableProducts: Product[] = [
       "handmade",
       "gold",
       "minimalist",
-      "new-in"
+      "new-in",
+      "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 108,
     "name": "Botanical Gold Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.58 AM.jpeg"
     ],
@@ -151,15 +155,16 @@ export const editableProducts: Product[] = [
       "botanical",
       "gold",
       "minimalist",
-      "bestseller"
+      "bestseller",
+      "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 109,
-    "name": "Wildflower Gold Ring",
-    "price": 4,
+    "name": "rose Flower petals  Gold Ring",
+    "price": 249,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.08.59 AM.jpeg"
     ],
@@ -167,15 +172,16 @@ export const editableProducts: Product[] = [
       "new-in",
       "bestseller",
       "botanical",
-      "for-her"
+      "for-her",
+      "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 110,
-    "name": "Wildflower Gold Ring",
-    "price": 4,
+    "name": "Real flower ring ",
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.00 AM.jpeg"
     ],
@@ -183,15 +189,16 @@ export const editableProducts: Product[] = [
       "minimalist",
       "pressed-flowers",
       "for-her",
-      "botanical"
+      "botanical",
+      "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 111,
     "name": "Vintage Botanical Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.01 AM.jpeg"
     ],
@@ -199,15 +206,16 @@ export const editableProducts: Product[] = [
       "botanical",
       "minimalist",
       "handmade",
-      "rings"
+      "rings",
+      "for-her"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 112,
     "name": "Pressed Flower Ring",
-    "price": 4,
+    "price": 249,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.03 AM.jpeg"
     ],
@@ -215,15 +223,16 @@ export const editableProducts: Product[] = [
       "bestseller",
       "botanical",
       "pressed-flowers",
-      "for-her"
+      "for-her",
+      "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 113,
     "name": "Minimal Bloom Ring",
-    "price": 4,
+    "price": 349,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.14 AM (1).jpeg"
     ],
@@ -231,15 +240,16 @@ export const editableProducts: Product[] = [
       "new-in",
       "botanical",
       "pressed-flowers",
-      "minimalist"
+      "minimalist",
+      "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 114,
     "name": "Minimal Bloom Ring",
-    "price": 4,
+    "price": 349,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.14 AM.jpeg"
     ],
@@ -247,15 +257,16 @@ export const editableProducts: Product[] = [
       "new-in",
       "bestseller",
       "botanical",
-      "pressed-flowers"
+      "pressed-flowers",
+      "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 115,
     "name": "Floral Resin Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.15 AM (1).jpeg"
     ],
@@ -263,15 +274,16 @@ export const editableProducts: Product[] = [
       "pressed-flowers",
       "minimalist",
       "handmade",
-      "gold"
+      "gold",
+      "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 116,
     "name": "Botanical Gold Ring",
-    "price": 4,
+    "price": 349,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.15 AM.jpeg"
     ],
@@ -281,13 +293,13 @@ export const editableProducts: Product[] = [
       "minimalist",
       "gold"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 117,
     "name": "Vintage Botanical Ring",
-    "price": 4,
+    "price": 249,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.16 AM.jpeg"
     ],
@@ -297,13 +309,13 @@ export const editableProducts: Product[] = [
       "handmade",
       "pressed-flowers"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "",
     "category": "rings"
   },
   {
     "id": 118,
     "name": "Floral Resin Ring",
-    "price": 4,
+    "price": 249,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.17 AM.jpeg"
     ],
@@ -311,15 +323,16 @@ export const editableProducts: Product[] = [
       "rings",
       "pressed-flowers",
       "minimalist",
-      "new-in"
+      "new-in",
+      "for-her"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 119,
     "name": "Botanical Gold Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.18 AM (1).jpeg"
     ],
@@ -327,15 +340,16 @@ export const editableProducts: Product[] = [
       "botanical",
       "handmade",
       "new-in",
-      "gold"
+      "gold",
+      "for-her"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 120,
     "name": "Garden Essence Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.18 AM.jpeg"
     ],
@@ -345,13 +359,13 @@ export const editableProducts: Product[] = [
       "for-her",
       "gold"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 121,
     "name": "Pressed Flower Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.19 AM.jpeg"
     ],
@@ -361,13 +375,13 @@ export const editableProducts: Product[] = [
       "for-her",
       "rings"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 122,
     "name": "Botanical Gold Ring",
-    "price": 4,
+    "price": 249,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.21 AM.jpeg"
     ],
@@ -377,13 +391,13 @@ export const editableProducts: Product[] = [
       "botanical",
       "bestseller"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 123,
     "name": "Vintage Botanical Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.22 AM.jpeg"
     ],
@@ -393,13 +407,13 @@ export const editableProducts: Product[] = [
       "pressed-flowers",
       "new-in"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
     "id": 124,
     "name": "Pressed Flower Ring",
-    "price": 4,
+    "price": 299,
     "images": [
       "/rings/WhatsApp Image 2025-12-29 at 7.09.23 AM.jpeg"
     ],
@@ -409,7 +423,7 @@ export const editableProducts: Product[] = [
       "minimalist",
       "handmade"
     ],
-    "description": "A simple handcrafted botanical ring featuring natural elements.",
+    "description": "Handmade ring with real flower stainless & adjustable ",
     "category": "rings"
   },
   {
@@ -702,24 +716,26 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 218,
-    "name": "Pressed Flower Pendant",
-    "price": 4,
+    "name": "Pressed Flower ring ",
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.17 PM.jpeg"
     ],
     "tags": [
-      "pendants",
       "pressed-flowers",
       "minimalist",
-      "new-in"
+      "for-her",
+      "rings",
+      "resin",
+      "handmade"
     ],
-    "description": "A simple handcrafted botanical pendant featuring natural elements.",
-    "category": "pendants"
+    "description": "Handmade ring with real flower stainless & adjustable ",
+    "category": "rings"
   },
   {
     "id": 219,
-    "name": "Garden Essence Pendant",
-    "price": 4,
+    "name": "Rose flower Jhumka ",
+    "price": 699,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.55 PM.jpeg"
     ],
@@ -727,41 +743,45 @@ export const editableProducts: Product[] = [
       "pendants",
       "pressed-flowers",
       "for-her",
-      "gold"
+      "gold",
+      "resin",
+      "handmade",
+      "iconic"
     ],
-    "description": "A simple handcrafted botanical pendant featuring natural elements.",
-    "category": "pendants"
+    "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
+    "category": "earrings"
   },
   {
     "id": 220,
-    "name": "Wildflower Gold Pendant",
-    "price": 4,
+    "name": "Wildflower Gold Jhumka ",
+    "price": 699,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.56 PM.jpeg"
     ],
     "tags": [
-      "pendants",
       "for-her",
       "bestseller",
       "gold"
     ],
-    "description": "A simple handcrafted botanical pendant featuring natural elements.",
-    "category": "pendants"
+    "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
+    "category": "earrings"
   },
   {
     "id": 221,
-    "name": "Pressed Flower Pendant",
-    "price": 4,
+    "name": "Real Flower Jhumka ",
+    "price": 699,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.37.57 PM.jpeg"
     ],
     "tags": [
-      "pendants",
       "botanical",
       "bestseller",
-      "for-her"
+      "for-her",
+      "iconic",
+      "handmade",
+      "resin"
     ],
-    "description": "A simple handcrafted botanical pendant featuring natural elements.",
-    "category": "pendants"
+    "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
+    "category": "earrings"
   }
 ]
