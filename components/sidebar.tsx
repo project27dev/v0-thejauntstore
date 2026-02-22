@@ -152,6 +152,15 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     Pendants
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/products?filter=jhumka"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    Jhumka
+                  </Link>
+                </li>
               </ul>
             </div>
 

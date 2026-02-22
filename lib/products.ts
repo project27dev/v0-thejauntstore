@@ -1,5 +1,7 @@
 import { editableProducts, Product } from "./products-data"
 
+export type { Product }
+
 // Use a fallback in case editableProducts is undefined
 export const products: Product[] = Array.isArray(editableProducts) ? [...editableProducts] : []
 

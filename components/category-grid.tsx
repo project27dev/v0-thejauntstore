@@ -1,27 +1,35 @@
+import Link from "next/link"
+
 const categories = [
   {
     name: "Rings",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/cat_ring.jpeg",
+    href: "/products?filter=rings",
   },
   {
     name: "Pendants",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/cat_pendent.jpeg",
+    href: "/products?filter=pendants",
   },
   {
     name: "Necklaces",
     image: "/placeholder.svg?height=400&width=400",
+    href: "/products?filter=necklaces",
   },
   {
     name: "Earrings",
     image: "/placeholder.svg?height=400&width=400",
+    href: "/products?filter=earrings",
   },
   {
     name: "Bracelets",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/cat_bracelet.JPG",
+    href: "/products?filter=bracelets",
   },
   {
-    name: "Necklaces",
+    name: "Jhumpka",
     image: "/placeholder.svg?height=400&width=400",
+    href: "/products?filter=jhumka",
   },
 ]
 
@@ -31,19 +39,18 @@ export default function CategoryGrid() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {categories.map((category, index) => (
-            <div key={index} className="relative group cursor-pointer">
-              <div className="aspect-square overflow-hidden rounded-lg">
+            <Link key={index} href={category.href} className="relative group cursor-pointer">
+              <div className="relative aspect-square overflow-hidden rounded-lg">
                 <img
-                  src={category.image || "/placeholder.svg"}
+                  src={category.image}
                   alt={category.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-30 transition-all duration-300" />
+                <div className="absolute bottom-4 left-4">
+                  <h3 className="text-white font-medium text-lg">{category.name}</h3>
+                </div>
               </div>
-              <div className="absolute bottom-4 left-4">
-                <h3 className="text-white font-medium text-lg">{category.name}</h3>
-              </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

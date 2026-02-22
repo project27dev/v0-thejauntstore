@@ -4,7 +4,7 @@ import { useState } from "react"
 import { products as initialProducts, type Product } from "@/lib/products"
 import { Button } from "@/components/ui/button"
 
-const categories = ["rings", "necklaces", "earrings", "bracelets", "pendants"]
+const categories = ["rings", "necklaces", "earrings", "bracelets", "pendants", "jhumka"]
 
 const tagOptions: { [key: string]: string } = {
   "for-her": "For Her",
@@ -18,6 +18,7 @@ const tagOptions: { [key: string]: string } = {
   earrings: "Earrings",
   bracelets: "Bracelets",
   pendants: "Pendants",
+  jhumka: "Jhumka",
   "matching-sets": "Matching Sets",
   gold: "Gold Jewelry",
   silver: "Silver Jewelry",

@@ -4,10 +4,10 @@ import Image from "next/image"
 
 export default function GridScrollSection() {
   const images = [
-    { src: "/animation_image1.jpg", alt: "Rings" },
-      { src: "/animation_image2.jpg", alt: "Rings" },
-        { src: "/animation_image3.jpg", alt: "Rings" },
-          { src: "/animation_image4.jpg", alt: "Rings" }
+    { src: "/footer1.jpeg", alt: "Rings" },
+      { src: "/footer2.jpeg", alt: "Rings" },
+        { src: "/footer3.jpeg", alt: "Rings" },
+          { src: "/footer4.jpeg", alt: "Rings" }
   ]
 
   return (

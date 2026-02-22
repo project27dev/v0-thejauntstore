@@ -53,6 +53,7 @@ export default function ProductsPage() {
       earrings: "Earrings",
       bracelets: "Bracelets",
       pendants: "Pendants",
+      jhumka: "Jhumka",
       "matching-sets": "Matching Sets",
       gold: "Gold Jewelry",
       silver: "Silver Jewelry",
