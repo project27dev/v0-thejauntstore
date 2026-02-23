@@ -1,11 +1,11 @@
 const bestsellers = [
   {
     name: "Dark Botanical Collection",
-    image: "/jewelry-dark-botanicals.jpeg", // replaced placeholder with dark botanical jewelry
+    image: "/bestseller1.jpeg", // replaced placeholder with dark botanical jewelry
   },
   {
     name: "Stone Bead Necklace",
-    image: "/jewelry-stone-necklace.jpeg", // replaced placeholder with stone necklace
+    image: "/bestseller2.jpeg", // replaced placeholder with stone necklace
   },
   {
     name: "Pressed Flower Pendants",

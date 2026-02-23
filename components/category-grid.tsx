@@ -13,22 +13,22 @@ const categories = [
   },
   {
     name: "Necklaces",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/cat_necklace.jpeg",
     href: "/products?filter=necklaces",
   },
   {
     name: "Earrings",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/cat_earring.jpeg",
     href: "/products?filter=earrings",
   },
   {
     name: "Bracelets",
-    image: "/cat_bracelet.JPG",
+    image: "/cat_bracelet.jpeg",
     href: "/products?filter=bracelets",
   },
   {
     name: "Jhumpka",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/cat_jhumpka.jpeg",
     href: "/products?filter=jhumka",
   },
 ]
