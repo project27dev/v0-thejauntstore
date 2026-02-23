@@ -6,8 +6,8 @@ import Image from "next/image"
 export default function HeroSection() {
   const [current, setCurrent] = useState(0)
   const images = [
-    { src: "/hero3.jpeg", alt: "Woman showing gold rings" },
     { src: "/hero2.JPG", alt: "Woman wearing pearl necklace" },
+    { src: "/hero3.jpeg", alt: "Woman showing gold rings" },
   ]
 
   useEffect(() => {
