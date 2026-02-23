@@ -9,7 +9,7 @@ const bestsellers = [
   },
   {
     name: "Pressed Flower Pendants",
-    image: "/jewelry-colorful-flowers.jpeg", // replaced placeholder with colorful flower jewelry
+    image: "/bestseller3.jpeg", // replaced placeholder with colorful flower jewelry
   },
 ]
 
