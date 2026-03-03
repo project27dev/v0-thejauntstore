@@ -218,7 +218,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             <div className="pt-6 border-t border-gray-200">
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="#" className="text-gray-600 hover:text-gray-900 transition-colors" onClick={onClose}>
+                  <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors" onClick={onClose}>
                     About Us
                   </Link>
                 </li>

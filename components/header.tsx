@@ -34,8 +34,12 @@ export default function Header() {
 
             {/* Right side */}
             <div className="flex items-center space-x-4">
-              <div className="hidden md:flex items-center space-x-4 text-sm">
-                <span>RON $</span>
+              <div className="hidden md:flex items-center space-x-6 text-sm">
+                <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  About Us
+                </Link>
+                <span className="text-gray-300">|</span>
+                <span>BDT ৳</span>
                 <span>|</span>
                 <span>United States</span>
               </div>

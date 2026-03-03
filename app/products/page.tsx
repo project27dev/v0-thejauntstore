@@ -130,7 +130,7 @@ export default function ProductsPage() {
                 <div className="text-center">
                   <h3 className="font-serif text-lg font-medium text-gray-900 mb-2">{product.name}</h3>
                   <p className="text-gray-600 text-sm mb-2 line-clamp-2">{product.description}</p>
-                  <p className="font-semibold text-gray-900">${product.price}</p>
+                  <p className="font-semibold text-gray-900">৳{product.price}</p>
                   <div className="flex flex-wrap justify-center gap-1 mt-2">
                     {product.tags.slice(0, 3).map((tag) => (
                       <span key={tag} className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">
