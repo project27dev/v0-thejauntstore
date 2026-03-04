@@ -429,7 +429,7 @@ export const editableProducts: Product[] = [
   {
     "id": 200,
     "name": "Wildflower Gold Pendant",
-    "price": 4,
+    "price": 349,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.24 AM.jpeg"
     ],
@@ -445,7 +445,7 @@ export const editableProducts: Product[] = [
   {
     "id": 201,
     "name": "Garden Essence Pendant",
-    "price": 4,
+    "price": 349,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.25 AM.jpeg"
     ],
@@ -461,7 +461,7 @@ export const editableProducts: Product[] = [
   {
     "id": 202,
     "name": "Minimal Bloom Pendant",
-    "price": 4,
+    "price": 249,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.27 AM.jpeg"
     ],
@@ -477,7 +477,7 @@ export const editableProducts: Product[] = [
   {
     "id": 203,
     "name": "Vintage Botanical Pendant",
-    "price": 4,
+    "price": 249,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.28 AM.jpeg"
     ],
@@ -493,7 +493,7 @@ export const editableProducts: Product[] = [
   {
     "id": 204,
     "name": "Botanical Gold Pendant",
-    "price": 4,
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.29 AM.jpeg"
     ],
@@ -501,7 +501,8 @@ export const editableProducts: Product[] = [
       "pendants",
       "gold",
       "botanical",
-      "bestseller"
+      "bestseller",
+      "for-her"
     ],
     "description": "A simple handcrafted botanical pendant featuring natural elements.",
     "category": "pendants"
@@ -509,7 +510,7 @@ export const editableProducts: Product[] = [
   {
     "id": 205,
     "name": "Pressed Flower Pendant",
-    "price": 4,
+    "price": 249,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.30 AM.jpeg"
     ],
@@ -525,7 +526,7 @@ export const editableProducts: Product[] = [
   {
     "id": 206,
     "name": "Minimal Bloom Pendant",
-    "price": 4,
+    "price": 249,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.31 AM.jpeg"
     ],
@@ -533,7 +534,8 @@ export const editableProducts: Product[] = [
       "pendants",
       "bestseller",
       "pressed-flowers",
-      "handmade"
+      "handmade",
+      "for-her"
     ],
     "description": "A simple handcrafted botanical pendant featuring natural elements.",
     "category": "pendants"
@@ -541,7 +543,7 @@ export const editableProducts: Product[] = [
   {
     "id": 207,
     "name": "Wildflower Gold Pendant",
-    "price": 4,
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.32 AM.jpeg"
     ],
@@ -557,7 +559,7 @@ export const editableProducts: Product[] = [
   {
     "id": 208,
     "name": "Floral Resin Pendant",
-    "price": 4,
+    "price": 349,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.33 AM.jpeg"
     ],
@@ -573,7 +575,7 @@ export const editableProducts: Product[] = [
   {
     "id": 209,
     "name": "Wildflower Gold Pendant",
-    "price": 4,
+    "price": 249,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.34 AM.jpeg"
     ],
@@ -589,7 +591,7 @@ export const editableProducts: Product[] = [
   {
     "id": 210,
     "name": "Minimal Bloom Pendant",
-    "price": 4,
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.37 AM.jpeg"
     ],
@@ -605,7 +607,7 @@ export const editableProducts: Product[] = [
   {
     "id": 211,
     "name": "Botanical Gold Pendant",
-    "price": 4,
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.38 AM.jpeg"
     ],
