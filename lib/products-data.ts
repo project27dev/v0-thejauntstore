@@ -622,8 +622,8 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 212,
-    "name": "Garden Essence Pendant",
-    "price": 4,
+    "name": "Vintage flower lockets",
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.41 AM.jpeg"
     ],
@@ -638,8 +638,8 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 213,
-    "name": "Pressed Flower Pendant",
-    "price": 4,
+    "name": "Vintage flower lockets",
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.42 AM.jpeg"
     ],
@@ -655,7 +655,7 @@ export const editableProducts: Product[] = [
   {
     "id": 214,
     "name": "Floral Resin Pendant",
-    "price": 4,
+    "price": 249,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.36.30 PM.jpeg"
     ],
@@ -670,8 +670,8 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 215,
-    "name": "Vintage Botanical Pendant",
-    "price": 4,
+    "name": "Yellow rose lockets ",
+    "price": 249,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.36.31 PM.jpeg"
     ],
@@ -687,7 +687,7 @@ export const editableProducts: Product[] = [
   {
     "id": 216,
     "name": "Wildflower Gold Pendant",
-    "price": 4,
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.36.32 PM.jpeg"
     ],
@@ -703,7 +703,7 @@ export const editableProducts: Product[] = [
   {
     "id": 217,
     "name": "Garden Essence Pendant",
-    "price": 4,
+    "price": 249,
     "images": [
       "/pendent/WhatsApp Image 2026-02-09 at 4.36.33 PM.jpeg"
     ],
