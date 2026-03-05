@@ -39,7 +39,7 @@ export default function Header() {
                   About Us
                 </Link>
                 <span className="text-gray-300">|</span>
-                <span>BDT ৳</span>
+                <span>BDT</span>
                 <span>|</span>
                 <span>United States</span>
               </div>

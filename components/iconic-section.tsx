@@ -4,22 +4,22 @@ import Link from "next/link"
 const products = [
   {
     name: "Golden Groove Band",
-    price: "3,850 ৳",
+    price: "3,850 BDT",
     image: "/8.jpg",
   },
   {
     name: "Ovals Aura",
-    price: "5,850 ৳",
+    price: "5,850 BDT",
     image: "/9.jpg",
   },
   {
     name: "Geometric Botanical Collection",
-    price: "8,950 ৳",
+    price: "8,950 BDT",
     image: "/10.jpg", // replaced placeholder with geometric jewelry collection
   },
   {
     name: "Capsule Botanical Pendants",
-    price: "6,950 ৳",
+    price: "6,950 BDT",
     image: "/11.jpg", // replaced placeholder with capsule-shaped pendants
   },
 ]

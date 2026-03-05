@@ -190,7 +190,7 @@ export default function AdminProductsGrid() {
                   {/* Price + Category row */}
                   <div className="flex gap-2">
                     <div className="flex-1">
-                      <label className="block text-xs font-semibold text-gray-500 mb-1">PRICE (৳)</label>
+                      <label className="block text-xs font-semibold text-gray-500 mb-1">PRICE (BDT)</label>
                       <input
                         type="number"
                         value={product.price}

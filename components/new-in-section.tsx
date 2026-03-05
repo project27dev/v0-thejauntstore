@@ -4,22 +4,22 @@ import Link from "next/link"
 const products = [
   {
     name: "Botanical Pendant Collection",
-    price: "6,550 ৳",
+    price: "6,550 BDT",
     image: "/3.jpg", // replaced placeholder with actual botanical jewelry image
   },
   {
     name: "Pressed Flower Ovals",
-    price: "From 5,250 ৳",
+    price: "From 5,250 BDT",
     image: "/4.jpg", // replaced placeholder with oval pendants image
   },
   {
     name: "Colorful Flower Pendants",
-    price: "5,950 ৳",
+    price: "5,950 BDT",
     image: "/5.jpg", // replaced placeholder with colorful flower jewelry
   },
   {
     name: "Heart & Nature Pendants",
-    price: "From 6,750 ৳",
+    price: "From 6,750 BDT",
     image: "/6.jpg", // replaced placeholder with heart-shaped pendants
   },
 ]
