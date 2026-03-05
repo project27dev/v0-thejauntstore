@@ -31,6 +31,7 @@ const tagOptions: { [key: string]: string } = {
   handmade: "Handmade",
   pearl: "Pearl",
   locket: "Locket",
+  metals: "Metals",
 }
 
 const PAGE_SIZE = 12

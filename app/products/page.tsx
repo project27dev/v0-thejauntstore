@@ -62,6 +62,7 @@ export default function ProductsPage() {
       resin: "Resin",
       pearl: "Pearl",
       locket: "Locket",
+      metals: "Metals",
     }
 
     return titleMap[filter] || filter.charAt(0).toUpperCase() + filter.slice(1)

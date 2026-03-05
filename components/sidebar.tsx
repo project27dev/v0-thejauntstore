@@ -101,6 +101,15 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     Show Piece
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/products?filter=metals"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    Metals
+                  </Link>
+                </li>
               </ul>
             </div>
 
