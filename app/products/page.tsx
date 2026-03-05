@@ -59,7 +59,8 @@ export default function ProductsPage() {
       silver: "Silver Jewelry",
       "pressed-flowers": "Pressed Flower Jewelry",
       "natural-elements": "Natural Elements",
-      resin: "Resin"
+      resin: "Resin",
+      pearl: "Pearl",
     }
 
     return titleMap[filter] || filter.charAt(0).toUpperCase() + filter.slice(1)

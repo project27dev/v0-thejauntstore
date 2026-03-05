@@ -212,6 +212,15 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     Resin
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/products?filter=pearl"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    Pearl
+                  </Link>
+                </li>
               </ul>
             </div>
 

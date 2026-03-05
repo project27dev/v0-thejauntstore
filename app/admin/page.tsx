@@ -29,6 +29,7 @@ const tagOptions: { [key: string]: string } = {
   minimalist: "Minimalist",
   botanical: "Botanical",
   handmade: "Handmade",
+  pearl: "Pearl",
 }
 
 const PAGE_SIZE = 12
