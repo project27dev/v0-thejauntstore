@@ -904,6 +904,303 @@ export const editableProducts: Product[] = [
     "category": "locket"
   },
   {
+    "id": 404,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.39 PM (1).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 405,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.39 PM (2).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 406,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.39 PM.jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 407,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.40 PM (1).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 408,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.40 PM.jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 409,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.41 PM (1).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 410,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.41 PM (2).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 411,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.41 PM.jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 412,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.42 PM (1).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 413,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.42 PM (2).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 414,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.42 PM.jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 415,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.43 PM (1).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 416,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.43 PM (2).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 417,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.43 PM.jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 418,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.44 PM (1).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 419,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.44 PM (2).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 420,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.44 PM.jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 421,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.45 PM (1).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 422,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.45 PM.jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 423,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.46 PM (1).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 424,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.46 PM (2).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 425,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.46 PM.jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 426,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.47 PM (1).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 427,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.47 PM.jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 428,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.48 PM (1).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 429,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.48 PM (2).jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 430,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.20.48 PM.jpeg"
+    ],
+    "tags": ["locket"],
+    "description": "",
+    "category": "locket"
+  },
+  {
     "id": 500,
     "name": "",
     "price": 0,
@@ -954,5 +1251,318 @@ export const editableProducts: Product[] = [
     ],
     "description": "",
     "category": "bracelets"
+  },
+  {
+    "id": 504,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.26.04 PM.jpeg"
+    ],
+    "tags": ["bracelets"],
+    "description": "",
+    "category": "bracelets"
+  },
+  {
+    "id": 505,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM (1).jpeg"
+    ],
+    "tags": ["bracelets"],
+    "description": "",
+    "category": "bracelets"
+  },
+  {
+    "id": 506,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM (2).jpeg"
+    ],
+    "tags": ["bracelets"],
+    "description": "",
+    "category": "bracelets"
+  },
+  {
+    "id": 507,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM (3).jpeg"
+    ],
+    "tags": ["bracelets"],
+    "description": "",
+    "category": "bracelets"
+  },
+  {
+    "id": 508,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM.jpeg"
+    ],
+    "tags": ["bracelets"],
+    "description": "",
+    "category": "bracelets"
+  },
+  {
+    "id": 509,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.26.06 PM (1).jpeg"
+    ],
+    "tags": ["bracelets"],
+    "description": "",
+    "category": "bracelets"
+  },
+  {
+    "id": 510,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.26.06 PM.jpeg"
+    ],
+    "tags": ["bracelets"],
+    "description": "",
+    "category": "bracelets"
+  },
+  {
+    "id": 600,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 4.50.31 PM.jpeg"
+    ],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "earrings"
+  },
+  {
+    "id": 700,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.56 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 701,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.57 PM (1).jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 702,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.57 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 703,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.58 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 704,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.59 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 705,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.00 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 706,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.01 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 707,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.02 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 708,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.04 PM (1).jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 709,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.04 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 710,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.05 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 711,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.06 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 712,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.07 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 713,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM (1).jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 714,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM (2).jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 715,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 716,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.12 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 717,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.14 PM (1).jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 718,
+    "name": "",
+    "price": 0,
+    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.14 PM.jpeg"],
+    "tags": ["stone-bracelet"],
+    "description": "",
+    "category": "stone-bracelet"
+  },
+  {
+    "id": 800,
+    "name": "",
+    "price": 0,
+    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.10 PM (1).jpeg"],
+    "tags": ["earrings"],
+    "description": "",
+    "category": "earrings"
+  },
+  {
+    "id": 801,
+    "name": "",
+    "price": 0,
+    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.10 PM.jpeg"],
+    "tags": ["earrings"],
+    "description": "",
+    "category": "earrings"
+  },
+  {
+    "id": 802,
+    "name": "",
+    "price": 0,
+    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM (1).jpeg"],
+    "tags": ["earrings"],
+    "description": "",
+    "category": "earrings"
+  },
+  {
+    "id": 803,
+    "name": "",
+    "price": 0,
+    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM (2).jpeg"],
+    "tags": ["earrings"],
+    "description": "",
+    "category": "earrings"
+  },
+  {
+    "id": 804,
+    "name": "",
+    "price": 0,
+    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM.jpeg"],
+    "tags": ["earrings"],
+    "description": "",
+    "category": "earrings"
+  },
+  {
+    "id": 805,
+    "name": "",
+    "price": 0,
+    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.12 PM.jpeg"],
+    "tags": ["earrings"],
+    "description": "",
+    "category": "earrings"
   }
 ]

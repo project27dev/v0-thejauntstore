@@ -179,6 +179,24 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     Locket
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/products?filter=bangles"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    Bangles
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products?filter=stone-bracelet"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    Stone Bracelet
+                  </Link>
+                </li>
               </ul>
             </div>
 

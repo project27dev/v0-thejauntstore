@@ -76,6 +76,16 @@ export default function Footer() {
                   Locket
                 </Link>
               </li>
+              <li>
+                <Link href="/products?filter=bangles" className="text-gray-300 hover:text-white transition-colors">
+                  Bangles
+                </Link>
+              </li>
+              <li>
+                <Link href="/products?filter=stone-bracelet" className="text-gray-300 hover:text-white transition-colors">
+                  Stone Bracelet
+                </Link>
+              </li>
             </ul>
           </div>
 

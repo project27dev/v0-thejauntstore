@@ -63,6 +63,8 @@ export default function ProductsPage() {
       pearl: "Pearl",
       locket: "Locket",
       metals: "Metals",
+      bangles: "Bangles",
+      "stone-bracelet": "Stone Bracelet",
     }
 
     return titleMap[filter] || filter.charAt(0).toUpperCase() + filter.slice(1)
