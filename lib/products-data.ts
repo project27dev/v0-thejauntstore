@@ -785,5 +785,70 @@ export const editableProducts: Product[] = [
     ],
     "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
     "category": "earrings"
+  },
+  {
+    "id": 300,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 3.53.09 PM.jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 301,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 3.53.10 PM (1).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 302,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 3.53.10 PM (2).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 303,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 3.53.10 PM.jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 304,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 3.53.11 PM.jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
+    "description": "",
+    "category": "jhumka"
   }
 ]
