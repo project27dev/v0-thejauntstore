@@ -161,6 +161,15 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     Jhumka
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/products?filter=locket"
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    onClick={onClose}
+                  >
+                    Locket
+                  </Link>
+                </li>
               </ul>
             </div>
 

@@ -61,6 +61,7 @@ export default function ProductsPage() {
       "natural-elements": "Natural Elements",
       resin: "Resin",
       pearl: "Pearl",
+      locket: "Locket",
     }
 
     return titleMap[filter] || filter.charAt(0).toUpperCase() + filter.slice(1)

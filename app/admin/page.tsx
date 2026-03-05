@@ -5,7 +5,7 @@ import { products as initialProducts, type Product } from "@/lib/products"
 import { Button } from "@/components/ui/button"
 import { Search, ChevronLeft, ChevronRight } from "lucide-react"
 
-const categories = ["rings", "necklaces", "earrings", "bracelets", "pendants", "jhumka"]
+const categories = ["rings", "necklaces", "earrings", "bracelets", "pendants", "jhumka", "locket"]
 
 const tagOptions: { [key: string]: string } = {
   "for-her": "For Her",
@@ -30,6 +30,7 @@ const tagOptions: { [key: string]: string } = {
   botanical: "Botanical",
   handmade: "Handmade",
   pearl: "Pearl",
+  locket: "Locket",
 }
 
 const PAGE_SIZE = 12
