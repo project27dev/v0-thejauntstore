@@ -172,11 +172,11 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                 </li>
                 <li>
                   <Link
-                    href="/products?filter=locket"
+                    href="/products?filter=pearl"
                     className="text-gray-600 hover:text-gray-900 transition-colors"
                     onClick={onClose}
                   >
-                    Locket
+                    Pearl
                   </Link>
                 </li>
                 <li>
@@ -246,15 +246,6 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     onClick={onClose}
                   >
                     Resin
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/products?filter=pearl"
-                    className="text-gray-600 hover:text-gray-900 transition-colors"
-                    onClick={onClose}
-                  >
-                    Pearl
                   </Link>
                 </li>
               </ul>

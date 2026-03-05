@@ -852,6 +852,159 @@ export const editableProducts: Product[] = [
     "category": "jhumka"
   },
   {
+    "id": 305,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.37 PM (1).jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 306,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.37 PM.jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 307,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.38 PM (1).jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 308,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.38 PM.jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 309,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM (1).jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 310,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM (2).jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 311,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM.jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 312,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (1).jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 313,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (2).jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 314,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (3).jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 315,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM.jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 316,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM (1).jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 317,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM (2).jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 318,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM.jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 319,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.42 PM (1).jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 320,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.42 PM.jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
+    "id": 321,
+    "name": "",
+    "price": 0,
+    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.43 PM.jpeg"],
+    "tags": ["jhumka"],
+    "description": "",
+    "category": "jhumka"
+  },
+  {
     "id": 400,
     "name": "",
     "price": 0,
@@ -859,10 +1012,9 @@ export const editableProducts: Product[] = [
       "/locket/WhatsApp Image 2026-03-05 at 4.07.54 PM.jpeg"
     ],
     "tags": [
-      "locket"
     ],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 401,
@@ -872,10 +1024,9 @@ export const editableProducts: Product[] = [
       "/locket/WhatsApp Image 2026-03-05 at 4.07.55 PM.jpeg"
     ],
     "tags": [
-      "locket"
     ],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 402,
@@ -885,10 +1036,9 @@ export const editableProducts: Product[] = [
       "/locket/WhatsApp Image 2026-03-05 at 4.12.54 PM (1).jpeg"
     ],
     "tags": [
-      "locket"
     ],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 403,
@@ -898,10 +1048,9 @@ export const editableProducts: Product[] = [
       "/locket/WhatsApp Image 2026-03-05 at 4.12.54 PM.jpeg"
     ],
     "tags": [
-      "locket"
     ],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 404,
@@ -910,9 +1059,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.39 PM (1).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 405,
@@ -921,9 +1070,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.39 PM (2).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 406,
@@ -932,9 +1081,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.39 PM.jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 407,
@@ -943,9 +1092,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.40 PM (1).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 408,
@@ -954,9 +1103,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.40 PM.jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 409,
@@ -965,9 +1114,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.41 PM (1).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 410,
@@ -976,9 +1125,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.41 PM (2).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 411,
@@ -987,9 +1136,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.41 PM.jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 412,
@@ -998,9 +1147,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.42 PM (1).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 413,
@@ -1009,9 +1158,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.42 PM (2).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 414,
@@ -1020,9 +1169,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.42 PM.jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 415,
@@ -1031,9 +1180,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.43 PM (1).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 416,
@@ -1042,9 +1191,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.43 PM (2).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 417,
@@ -1053,9 +1202,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.43 PM.jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 418,
@@ -1064,9 +1213,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.44 PM (1).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 419,
@@ -1075,9 +1224,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.44 PM (2).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 420,
@@ -1086,9 +1235,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.44 PM.jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 421,
@@ -1097,9 +1246,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.45 PM (1).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 422,
@@ -1108,9 +1257,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.45 PM.jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 423,
@@ -1119,9 +1268,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.46 PM (1).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 424,
@@ -1130,9 +1279,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.46 PM (2).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 425,
@@ -1141,9 +1290,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.46 PM.jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 426,
@@ -1152,9 +1301,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.47 PM (1).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 427,
@@ -1163,9 +1312,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.47 PM.jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 428,
@@ -1174,9 +1323,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.48 PM (1).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 429,
@@ -1185,9 +1334,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.48 PM (2).jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 430,
@@ -1196,9 +1345,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.48 PM.jpeg"
     ],
-    "tags": ["locket"],
+    "tags": [],
     "description": "",
-    "category": "locket"
+    "category": "pendants"
   },
   {
     "id": 500,
@@ -1338,7 +1487,160 @@ export const editableProducts: Product[] = [
     ],
     "tags": ["pearl"],
     "description": "",
-    "category": "earrings"
+    "category": "pearl"
+  },
+  {
+    "id": 601,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.01 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 602,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.03 PM (1).jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 603,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.03 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 604,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.04 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 605,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.05 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 606,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.06 PM (1).jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 607,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.06 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 608,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM (1).jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 609,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM (2).jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 610,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 611,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.11 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 612,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.12 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 613,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.14 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 614,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.15 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 615,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.19 PM (1).jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 616,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.19 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
+  },
+  {
+    "id": 617,
+    "name": "",
+    "price": 0,
+    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.20 PM.jpeg"],
+    "tags": ["pearl"],
+    "description": "",
+    "category": "pearl"
   },
   {
     "id": 700,
@@ -1564,5 +1866,68 @@ export const editableProducts: Product[] = [
     "tags": ["earrings"],
     "description": "",
     "category": "earrings"
+  },
+  {
+    "id": 900,
+    "name": "",
+    "price": 0,
+    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.25 PM.jpeg"],
+    "tags": ["bangles"],
+    "description": "",
+    "category": "bangles"
+  },
+  {
+    "id": 901,
+    "name": "",
+    "price": 0,
+    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM (1).jpeg"],
+    "tags": ["bangles"],
+    "description": "",
+    "category": "bangles"
+  },
+  {
+    "id": 902,
+    "name": "",
+    "price": 0,
+    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM (2).jpeg"],
+    "tags": ["bangles"],
+    "description": "",
+    "category": "bangles"
+  },
+  {
+    "id": 903,
+    "name": "",
+    "price": 0,
+    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM.jpeg"],
+    "tags": ["bangles"],
+    "description": "",
+    "category": "bangles"
+  },
+  {
+    "id": 904,
+    "name": "",
+    "price": 0,
+    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM (1).jpeg"],
+    "tags": ["bangles"],
+    "description": "",
+    "category": "bangles"
+  },
+  {
+    "id": 905,
+    "name": "",
+    "price": 0,
+    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM (2).jpeg"],
+    "tags": ["bangles"],
+    "description": "",
+    "category": "bangles"
+  },
+  {
+    "id": 906,
+    "name": "",
+    "price": 0,
+    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM.jpeg"],
+    "tags": ["bangles"],
+    "description": "",
+    "category": "bangles"
   }
 ]

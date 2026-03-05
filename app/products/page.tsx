@@ -61,7 +61,6 @@ export default function ProductsPage() {
       "natural-elements": "Natural Elements",
       resin: "Resin",
       pearl: "Pearl",
-      locket: "Locket",
       metals: "Metals",
       bangles: "Bangles",
       "stone-bracelet": "Stone Bracelet",
