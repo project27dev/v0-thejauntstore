@@ -850,5 +850,109 @@ export const editableProducts: Product[] = [
     ],
     "description": "",
     "category": "jhumka"
+  },
+  {
+    "id": 400,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.07.54 PM.jpeg"
+    ],
+    "tags": [
+      "locket"
+    ],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 401,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.07.55 PM.jpeg"
+    ],
+    "tags": [
+      "locket"
+    ],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 402,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.12.54 PM (1).jpeg"
+    ],
+    "tags": [
+      "locket"
+    ],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 403,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/locket/WhatsApp Image 2026-03-05 at 4.12.54 PM.jpeg"
+    ],
+    "tags": [
+      "locket"
+    ],
+    "description": "",
+    "category": "locket"
+  },
+  {
+    "id": 500,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.11.24 PM (1).jpeg"
+    ],
+    "tags": [
+      "bracelets"
+    ],
+    "description": "",
+    "category": "bracelets"
+  },
+  {
+    "id": 501,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.11.24 PM.jpeg"
+    ],
+    "tags": [
+      "bracelets"
+    ],
+    "description": "",
+    "category": "bracelets"
+  },
+  {
+    "id": 502,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.11.25 PM (1).jpeg"
+    ],
+    "tags": [
+      "bracelets"
+    ],
+    "description": "",
+    "category": "bracelets"
+  },
+  {
+    "id": 503,
+    "name": "",
+    "price": 0,
+    "images": [
+      "/bracelet/WhatsApp Image 2026-03-05 at 4.11.25 PM.jpeg"
+    ],
+    "tags": [
+      "bracelets"
+    ],
+    "description": "",
+    "category": "bracelets"
   }
 ]
