@@ -94,11 +94,11 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                 </li>
                       <li>
                   <Link
-                    href="/products?filter=showcase"
+                    href="/products?filter=showpiece"
                     className="text-gray-600 hover:text-gray-900 transition-colors"
                     onClick={onClose}
                   >
-                    Showcase
+                    Show Piece
                   </Link>
                 </li>
               </ul>

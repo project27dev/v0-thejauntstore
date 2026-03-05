@@ -47,7 +47,7 @@ export default function ProductsPage() {
       "new-in": "New In",
       bestseller: "Bestsellers",
       iconic: "Iconic Collection",
-      showcase: "Showcase",
+      showpiece: "Show Piece",
       rings: "Rings",
       necklaces: "Necklaces",
       earrings: "Earrings",

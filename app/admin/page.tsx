@@ -13,7 +13,7 @@ const tagOptions: { [key: string]: string } = {
   "new-in": "New In",
   bestseller: "Bestsellers",
   iconic: "Iconic Collection",
-  showcase: "Showcase",
+  showpiece: "Show Piece",
   rings: "Rings",
   necklaces: "Necklaces",
   earrings: "Earrings",
