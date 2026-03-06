@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react"
 import { products as initialProducts, type Product } from "@/lib/products"
 import { Button } from "@/components/ui/button"
-import { Search, ChevronLeft, ChevronRight, Trash2 } from "lucide-react"
+import { Search, ChevronLeft, ChevronRight, Trash2, X, Plus, Loader2 } from "lucide-react"
 
 const categories = ["rings", "necklaces", "earrings", "bracelets", "pendants", "jhumka", "pearl", "bangles", "stone-bracelet"]
 
@@ -43,6 +43,10 @@ export default function AdminProductsGrid() {
   const [activeCategory, setActiveCategory] = useState<string>("all")
   const [page, setPage] = useState(1)
   const [saving, setSaving] = useState(false)
+  const [uploadingImages, setUploadingImages] = useState<Record<number, boolean>>({})
+  const [showAddModal, setShowAddModal] = useState(false)
+  const [addingProduct, setAddingProduct] = useState(false)
+  const [newProduct, setNewProduct] = useState({ name: "", description: "", price: 0, category: "rings", tags: [] as string[], imageFile: null as File | null, imagePreview: "" })
 
   const updateProduct = (id: number, field: keyof Product, value: any) => {
     setProducts((prev) =>
@@ -68,6 +72,66 @@ export default function AdminProductsGrid() {
     } catch (err) {
       setProducts(products) // restore on failure
       alert("Error: " + (err as Error).message)
+    }
+  }
+
+  const uploadImage = async (productId: number, category: string, file: File) => {
+    setUploadingImages((prev) => ({ ...prev, [productId]: true }))
+    try {
+      const formData = new FormData()
+      formData.append("file", file)
+      formData.append("category", category)
+      const response = await fetch("/api/upload-image", { method: "POST", body: formData })
+      const data = await response.json()
+      if (data.success) {
+        updateProduct(productId, "images", [
+          ...(products.find((p) => p.id === productId)?.images ?? []),
+          data.path,
+        ])
+      } else {
+        alert("Upload failed: " + data.error)
+      }
+    } catch (err) {
+      alert("Upload error: " + (err as Error).message)
+    } finally {
+      setUploadingImages((prev) => ({ ...prev, [productId]: false }))
+    }
+  }
+
+  const addProduct = async () => {
+    if (!newProduct.name.trim()) return alert("Product name is required.")
+    setAddingProduct(true)
+    try {
+      let imagePath = ""
+      if (newProduct.imageFile) {
+        const formData = new FormData()
+        formData.append("file", newProduct.imageFile)
+        formData.append("category", newProduct.category)
+        const res = await fetch("/api/upload-image", { method: "POST", body: formData })
+        const data = await res.json()
+        if (!data.success) { alert("Image upload failed: " + data.error); return }
+        imagePath = data.path
+      }
+      const newId = Math.max(0, ...products.map((p) => p.id)) + 1
+      const product = { id: newId, name: newProduct.name, description: newProduct.description, price: newProduct.price, category: newProduct.category, tags: newProduct.tags, images: imagePath ? [imagePath] : [] }
+      const updatedProducts = [...products, product]
+
+      // Commit to GitHub immediately
+      const res = await fetch("/api/update-products", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ editableProducts: updatedProducts }),
+      })
+      const data = await res.json()
+      if (!data.success) { alert("Failed to save to GitHub: " + data.error); return }
+
+      setProducts(updatedProducts)
+      setNewProduct({ name: "", description: "", price: 0, category: "rings", tags: [], imageFile: null, imagePreview: "" })
+      setShowAddModal(false)
+    } catch (err) {
+      alert("Error: " + (err as Error).message)
+    } finally {
+      setAddingProduct(false)
     }
   }
 
@@ -122,9 +186,14 @@ export default function AdminProductsGrid() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-3">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold">Admin Panel</h1>
-            <Button onClick={handleSave} disabled={saving}>
-              {saving ? "Saving..." : "Save & Commit to GitHub"}
-            </Button>
+            <div className="flex gap-2">
+              <Button variant="outline" onClick={() => setShowAddModal(true)}>
+                <Plus className="h-4 w-4 mr-1" /> Add Product
+              </Button>
+              <Button onClick={handleSave} disabled={saving}>
+                {saving ? "Saving..." : "Save & Commit to GitHub"}
+              </Button>
+            </div>
           </div>
 
           {/* Search + count */}
@@ -179,12 +248,14 @@ export default function AdminProductsGrid() {
                 key={product.id}
                 className="border rounded-lg shadow-sm overflow-hidden bg-white flex flex-col"
               >
-                {/* Image */}
-                <img
-                  src={product.images[0]}
-                  alt={product.name}
-                  className="w-full h-52 object-cover"
-                />
+                {/* Main image */}
+                {product.images[0] && (
+                  <img
+                    src={product.images[0]}
+                    alt={product.name}
+                    className="w-full h-52 object-cover"
+                  />
+                )}
 
                 <div className="p-4 flex flex-col gap-3 flex-1">
                   {/* ID badge + delete */}
@@ -277,6 +348,55 @@ export default function AdminProductsGrid() {
                       })}
                     </div>
                   </div>
+
+                  {/* Images */}
+                  <div>
+                    <label className="block text-xs font-semibold text-gray-500 mb-1">IMAGES</label>
+                    <div className="flex flex-wrap gap-2">
+                      {product.images.map((img, idx) => (
+                        <div key={idx} className="relative group w-16 h-16">
+                          <img
+                            src={img}
+                            alt={`img-${idx}`}
+                            className="w-full h-full object-cover rounded border border-gray-200"
+                          />
+                          <button
+                            type="button"
+                            onClick={() =>
+                              updateProduct(product.id, "images", product.images.filter((_, i) => i !== idx))
+                            }
+                            className="absolute -top-1.5 -right-1.5 bg-red-500 text-white rounded-full w-4 h-4 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+                            title="Remove image"
+                          >
+                            <X className="h-2.5 w-2.5" />
+                          </button>
+                        </div>
+                      ))}
+
+                      {/* Upload button */}
+                      <label className="w-16 h-16 border-2 border-dashed border-gray-300 rounded flex items-center justify-center cursor-pointer hover:border-gray-500 transition-colors">
+                        {uploadingImages[product.id] ? (
+                          <Loader2 className="h-5 w-5 text-gray-400 animate-spin" />
+                        ) : (
+                          <Plus className="h-5 w-5 text-gray-400" />
+                        )}
+                        <input
+                          type="file"
+                          accept="image/*"
+                          className="hidden"
+                          disabled={uploadingImages[product.id]}
+                          onChange={(e) => {
+                            const file = e.target.files?.[0]
+                            if (file) {
+                              uploadImage(product.id, product.category, file)
+                              e.target.value = ""
+                            }
+                          }}
+                        />
+                      </label>
+                    </div>
+                    <p className="text-xs text-gray-400 mt-1">Uploads go to GitHub instantly. Save to update product list.</p>
+                  </div>
                 </div>
               </div>
             ))}
@@ -320,6 +440,123 @@ export default function AdminProductsGrid() {
           </div>
         )}
       </div>
+
+      {/* Add Product Modal */}
+      {showAddModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+          <div className="bg-white rounded-xl shadow-xl w-full max-w-md max-h-[90vh] overflow-y-auto p-6 flex flex-col gap-4">
+            <div className="flex items-center justify-between">
+              <h2 className="text-lg font-bold">Add New Product</h2>
+              <button onClick={() => setShowAddModal(false)} className="text-gray-400 hover:text-gray-600">
+                <X className="h-5 w-5" />
+              </button>
+            </div>
+
+            {/* Image upload */}
+            <div>
+              <label className="block text-xs font-semibold text-gray-500 mb-1">IMAGE</label>
+              <label className="flex flex-col items-center justify-center w-full h-40 border-2 border-dashed border-gray-300 rounded-lg cursor-pointer hover:border-gray-500 transition-colors overflow-hidden">
+                {newProduct.imagePreview ? (
+                  <img src={newProduct.imagePreview} alt="preview" className="w-full h-full object-cover" />
+                ) : (
+                  <div className="flex flex-col items-center gap-1 text-gray-400">
+                    <Plus className="h-8 w-8" />
+                    <span className="text-sm">Click to upload image</span>
+                  </div>
+                )}
+                <input
+                  type="file"
+                  accept="image/*"
+                  className="hidden"
+                  onChange={(e) => {
+                    const file = e.target.files?.[0]
+                    if (file) setNewProduct((p) => ({ ...p, imageFile: file, imagePreview: URL.createObjectURL(file) }))
+                  }}
+                />
+              </label>
+            </div>
+
+            {/* Name */}
+            <div>
+              <label className="block text-xs font-semibold text-gray-500 mb-1">NAME *</label>
+              <input
+                type="text"
+                value={newProduct.name}
+                onChange={(e) => setNewProduct((p) => ({ ...p, name: e.target.value }))}
+                placeholder="Product name"
+                className="border rounded px-2 py-1 w-full text-sm focus:outline-none focus:ring-1 focus:ring-gray-900"
+              />
+            </div>
+
+            {/* Description */}
+            <div>
+              <label className="block text-xs font-semibold text-gray-500 mb-1">DESCRIPTION</label>
+              <textarea
+                value={newProduct.description}
+                onChange={(e) => setNewProduct((p) => ({ ...p, description: e.target.value }))}
+                rows={2}
+                placeholder="Product description"
+                className="border rounded px-2 py-1 w-full text-sm focus:outline-none focus:ring-1 focus:ring-gray-900 resize-none"
+              />
+            </div>
+
+            {/* Price + Category */}
+            <div className="flex gap-2">
+              <div className="flex-1">
+                <label className="block text-xs font-semibold text-gray-500 mb-1">PRICE (BDT)</label>
+                <input
+                  type="number"
+                  value={newProduct.price}
+                  onChange={(e) => setNewProduct((p) => ({ ...p, price: Number(e.target.value) }))}
+                  className="border rounded px-2 py-1 w-full text-sm focus:outline-none focus:ring-1 focus:ring-gray-900"
+                />
+              </div>
+              <div className="flex-1">
+                <label className="block text-xs font-semibold text-gray-500 mb-1">CATEGORY</label>
+                <select
+                  value={newProduct.category}
+                  onChange={(e) => setNewProduct((p) => ({ ...p, category: e.target.value }))}
+                  className="border rounded px-2 py-1 w-full text-sm focus:outline-none focus:ring-1 focus:ring-gray-900"
+                >
+                  {categories.map((c) => (
+                    <option key={c} value={c}>{c.charAt(0).toUpperCase() + c.slice(1)}</option>
+                  ))}
+                </select>
+              </div>
+            </div>
+
+            {/* Tags */}
+            <div>
+              <label className="block text-xs font-semibold text-gray-500 mb-1">TAGS</label>
+              <div className="flex flex-wrap gap-1">
+                {Object.entries(tagOptions).map(([key, label]) => {
+                  const selected = newProduct.tags.includes(key)
+                  return (
+                    <button
+                      key={key}
+                      type="button"
+                      onClick={() => setNewProduct((p) => ({ ...p, tags: selected ? p.tags.filter((t) => t !== key) : [...p.tags, key] }))}
+                      className={`px-2 py-0.5 rounded text-xs border transition-colors ${selected ? "bg-gray-900 text-white border-gray-900" : "bg-white text-gray-600 border-gray-300 hover:border-gray-500"}`}
+                    >
+                      {label}
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2 pt-2">
+              <Button variant="outline" className="flex-1" onClick={() => setShowAddModal(false)} disabled={addingProduct}>
+                Cancel
+              </Button>
+              <Button className="flex-1" onClick={addProduct} disabled={addingProduct}>
+                {addingProduct ? <><Loader2 className="h-4 w-4 mr-1 animate-spin" /> Adding...</> : "Add Product"}
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
