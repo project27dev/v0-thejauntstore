@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react"
 import { products as initialProducts, type Product } from "@/lib/products"
 import { Button } from "@/components/ui/button"
-import { Search, ChevronLeft, ChevronRight } from "lucide-react"
+import { Search, ChevronLeft, ChevronRight, Trash2 } from "lucide-react"
 
 const categories = ["rings", "necklaces", "earrings", "bracelets", "pendants", "jhumka", "pearl", "bangles", "stone-bracelet"]
 
@@ -48,6 +48,27 @@ export default function AdminProductsGrid() {
     setProducts((prev) =>
       prev.map((p) => (p.id === id ? { ...p, [field]: value } : p))
     )
+  }
+
+  const deleteProduct = async (product: Product) => {
+    if (!confirm(`Delete "${product.name}" (#${product.id})? This will also delete its images from GitHub.`)) return
+    const filtered = products.filter((p) => p.id !== product.id)
+    setProducts(filtered)
+    try {
+      const response = await fetch("/api/delete-product", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productId: product.id, images: product.images, editableProducts: filtered }),
+      })
+      const data = await response.json()
+      if (!data.success) {
+        setProducts(products) // restore on failure
+        alert("Failed to delete: " + data.error)
+      }
+    } catch (err) {
+      setProducts(products) // restore on failure
+      alert("Error: " + (err as Error).message)
+    }
   }
 
   const filtered = useMemo(() => {
@@ -166,8 +187,18 @@ export default function AdminProductsGrid() {
                 />
 
                 <div className="p-4 flex flex-col gap-3 flex-1">
-                  {/* ID badge */}
-                  <span className="text-xs text-gray-400">#{product.id}</span>
+                  {/* ID badge + delete */}
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs text-gray-400">#{product.id}</span>
+                    <button
+                      type="button"
+                      onClick={() => deleteProduct(product)}
+                      className="text-red-400 hover:text-red-600 transition-colors"
+                      title="Delete product"
+                    >
+                      <Trash2 className="h-4 w-4" />
+                    </button>
+                  </div>
 
                   {/* Name */}
                   <div>
