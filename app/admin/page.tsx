@@ -109,12 +109,23 @@ export default function AdminProductsGrid() {
         formData.append("category", newProduct.category)
         const res = await fetch("/api/upload-image", { method: "POST", body: formData })
         const data = await res.json()
-        if (!data.success) return alert("Image upload failed: " + data.error)
+        if (!data.success) { alert("Image upload failed: " + data.error); return }
         imagePath = data.path
       }
       const newId = Math.max(0, ...products.map((p) => p.id)) + 1
       const product = { id: newId, name: newProduct.name, description: newProduct.description, price: newProduct.price, category: newProduct.category, tags: newProduct.tags, images: imagePath ? [imagePath] : [] }
-      setProducts((prev) => [...prev, product])
+      const updatedProducts = [...products, product]
+
+      // Commit to GitHub immediately
+      const res = await fetch("/api/update-products", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ editableProducts: updatedProducts }),
+      })
+      const data = await res.json()
+      if (!data.success) { alert("Failed to save to GitHub: " + data.error); return }
+
+      setProducts(updatedProducts)
       setNewProduct({ name: "", description: "", price: 0, category: "rings", tags: [], imageFile: null, imagePreview: "" })
       setShowAddModal(false)
     } catch (err) {
