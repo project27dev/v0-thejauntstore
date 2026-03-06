@@ -855,8 +855,12 @@ export const editableProducts: Product[] = [
     "id": 305,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.37 PM (1).jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.37 PM (1).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -864,8 +868,12 @@ export const editableProducts: Product[] = [
     "id": 306,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.37 PM.jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.37 PM.jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -873,8 +881,12 @@ export const editableProducts: Product[] = [
     "id": 307,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.38 PM (1).jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.38 PM (1).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -882,8 +894,12 @@ export const editableProducts: Product[] = [
     "id": 308,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.38 PM.jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.38 PM.jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -891,8 +907,12 @@ export const editableProducts: Product[] = [
     "id": 309,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM (1).jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM (1).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -900,8 +920,12 @@ export const editableProducts: Product[] = [
     "id": 310,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM (2).jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM (2).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -909,8 +933,12 @@ export const editableProducts: Product[] = [
     "id": 311,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM.jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM.jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -918,8 +946,12 @@ export const editableProducts: Product[] = [
     "id": 312,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (1).jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (1).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -927,8 +959,12 @@ export const editableProducts: Product[] = [
     "id": 313,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (2).jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (2).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -936,8 +972,12 @@ export const editableProducts: Product[] = [
     "id": 314,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (3).jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (3).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -945,8 +985,12 @@ export const editableProducts: Product[] = [
     "id": 315,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM.jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM.jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -954,8 +998,12 @@ export const editableProducts: Product[] = [
     "id": 316,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM (1).jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM (1).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -963,8 +1011,12 @@ export const editableProducts: Product[] = [
     "id": 317,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM (2).jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM (2).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -972,8 +1024,12 @@ export const editableProducts: Product[] = [
     "id": 318,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM.jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM.jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -981,8 +1037,12 @@ export const editableProducts: Product[] = [
     "id": 319,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.42 PM (1).jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.42 PM (1).jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -990,8 +1050,12 @@ export const editableProducts: Product[] = [
     "id": 320,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.42 PM.jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.42 PM.jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -999,8 +1063,12 @@ export const editableProducts: Product[] = [
     "id": 321,
     "name": "",
     "price": 0,
-    "images": ["/jhumka/WhatsApp Image 2026-03-05 at 5.02.43 PM.jpeg"],
-    "tags": ["jhumka"],
+    "images": [
+      "/jhumka/WhatsApp Image 2026-03-05 at 5.02.43 PM.jpeg"
+    ],
+    "tags": [
+      "jhumka"
+    ],
     "description": "",
     "category": "jhumka"
   },
@@ -1011,8 +1079,7 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.07.54 PM.jpeg"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "description": "",
     "category": "pendants"
   },
@@ -1023,8 +1090,7 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.07.55 PM.jpeg"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "description": "",
     "category": "pendants"
   },
@@ -1035,8 +1101,7 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.12.54 PM (1).jpeg"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "description": "",
     "category": "pendants"
   },
@@ -1047,8 +1112,7 @@ export const editableProducts: Product[] = [
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.12.54 PM.jpeg"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "description": "",
     "category": "pendants"
   },
@@ -1408,7 +1472,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.04 PM.jpeg"
     ],
-    "tags": ["bracelets"],
+    "tags": [
+      "bracelets"
+    ],
     "description": "",
     "category": "bracelets"
   },
@@ -1419,7 +1485,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM (1).jpeg"
     ],
-    "tags": ["bracelets"],
+    "tags": [
+      "bracelets"
+    ],
     "description": "",
     "category": "bracelets"
   },
@@ -1430,7 +1498,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM (2).jpeg"
     ],
-    "tags": ["bracelets"],
+    "tags": [
+      "bracelets"
+    ],
     "description": "",
     "category": "bracelets"
   },
@@ -1441,7 +1511,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM (3).jpeg"
     ],
-    "tags": ["bracelets"],
+    "tags": [
+      "bracelets"
+    ],
     "description": "",
     "category": "bracelets"
   },
@@ -1452,7 +1524,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM.jpeg"
     ],
-    "tags": ["bracelets"],
+    "tags": [
+      "bracelets"
+    ],
     "description": "",
     "category": "bracelets"
   },
@@ -1463,7 +1537,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.06 PM (1).jpeg"
     ],
-    "tags": ["bracelets"],
+    "tags": [
+      "bracelets"
+    ],
     "description": "",
     "category": "bracelets"
   },
@@ -1474,7 +1550,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.06 PM.jpeg"
     ],
-    "tags": ["bracelets"],
+    "tags": [
+      "bracelets"
+    ],
     "description": "",
     "category": "bracelets"
   },
@@ -1485,7 +1563,9 @@ export const editableProducts: Product[] = [
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 4.50.31 PM.jpeg"
     ],
-    "tags": ["pearl"],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1493,8 +1573,12 @@ export const editableProducts: Product[] = [
     "id": 601,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.01 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.01 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1502,8 +1586,12 @@ export const editableProducts: Product[] = [
     "id": 602,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.03 PM (1).jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.03 PM (1).jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1511,8 +1599,12 @@ export const editableProducts: Product[] = [
     "id": 603,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.03 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.03 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1520,8 +1612,12 @@ export const editableProducts: Product[] = [
     "id": 604,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.04 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.04 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1529,8 +1625,12 @@ export const editableProducts: Product[] = [
     "id": 605,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.05 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.05 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1538,8 +1638,12 @@ export const editableProducts: Product[] = [
     "id": 606,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.06 PM (1).jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.06 PM (1).jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1547,8 +1651,12 @@ export const editableProducts: Product[] = [
     "id": 607,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.06 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.06 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1556,8 +1664,12 @@ export const editableProducts: Product[] = [
     "id": 608,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM (1).jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM (1).jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1565,8 +1677,12 @@ export const editableProducts: Product[] = [
     "id": 609,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM (2).jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM (2).jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1574,8 +1690,12 @@ export const editableProducts: Product[] = [
     "id": 610,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1583,8 +1703,12 @@ export const editableProducts: Product[] = [
     "id": 611,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.11 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.11 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1592,8 +1716,12 @@ export const editableProducts: Product[] = [
     "id": 612,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.12 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.12 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1601,8 +1729,12 @@ export const editableProducts: Product[] = [
     "id": 613,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.14 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.14 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1610,8 +1742,12 @@ export const editableProducts: Product[] = [
     "id": 614,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.15 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.15 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1619,8 +1755,12 @@ export const editableProducts: Product[] = [
     "id": 615,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.19 PM (1).jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.19 PM (1).jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1628,8 +1768,12 @@ export const editableProducts: Product[] = [
     "id": 616,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.19 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.19 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
@@ -1637,125 +1781,194 @@ export const editableProducts: Product[] = [
     "id": 617,
     "name": "",
     "price": 0,
-    "images": ["/pearl/WhatsApp Image 2026-03-05 at 5.10.20 PM.jpeg"],
-    "tags": ["pearl"],
+    "images": [
+      "/pearl/WhatsApp Image 2026-03-05 at 5.10.20 PM.jpeg"
+    ],
+    "tags": [
+      "pearl"
+    ],
     "description": "",
     "category": "pearl"
   },
   {
     "id": 700,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.56 PM.jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Green stone bracelet ",
+    "price": 299,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.56 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
+    "description": "Handmade bracelets with stone and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 701,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.57 PM (1).jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Pearl bracelet ",
+    "price": 399,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.57 PM (1).jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
+    "description": "Handmade bracelets with pearl and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 702,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.57 PM.jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Green stone bracelet ",
+    "price": 299,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.57 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
+    "description": "Handmade bracelets with stone and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 703,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.58 PM.jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Pearl bracelet ",
+    "price": 399,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.58 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
+    "description": "Handmade bracelets with pearls and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 704,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.59 PM.jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Pearl bracelet ",
+    "price": 399,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.53.59 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
+    "description": "Handmade bracelets with pearl and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 705,
     "name": "",
     "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.00 PM.jpeg"],
-    "tags": ["stone-bracelet"],
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.00 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
     "description": "",
     "category": "stone-bracelet"
   },
   {
     "id": 706,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.01 PM.jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Stone bracelets ",
+    "price": 299,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.01 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
+    "description": "Handmade bracelets with stone and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 707,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.02 PM.jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Box stone bracelet ",
+    "price": 329,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.02 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
+    "description": "Handmade bracelets with stone and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 708,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.04 PM (1).jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Stone bracelet ",
+    "price": 599,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.04 PM (1).jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
+    "description": "Handmade stone bracelet ",
     "category": "stone-bracelet"
   },
   {
     "id": 709,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.04 PM.jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Classic stone bracelet ",
+    "price": 199,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.04 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
+    "description": "Handmade bracelets with stone ",
     "category": "stone-bracelet"
   },
   {
     "id": 710,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.05 PM.jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Pearl bracelet ",
+    "price": 399,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.05 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets"
+    ],
+    "description": "Handmade bracelets with pearl and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 711,
-    "name": "",
-    "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.06 PM.jpeg"],
-    "tags": ["stone-bracelet"],
-    "description": "",
+    "name": "Pearl bracelet in silver & golden ",
+    "price": 399,
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.06 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet",
+      "bracelets",
+      "for-her"
+    ],
+    "description": "Handmade bracelets with pearl and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 712,
     "name": "",
     "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.07 PM.jpeg"],
-    "tags": ["stone-bracelet"],
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.07 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet"
+    ],
     "description": "",
     "category": "stone-bracelet"
   },
@@ -1763,8 +1976,12 @@ export const editableProducts: Product[] = [
     "id": 713,
     "name": "",
     "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM (1).jpeg"],
-    "tags": ["stone-bracelet"],
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM (1).jpeg"
+    ],
+    "tags": [
+      "stone-bracelet"
+    ],
     "description": "",
     "category": "stone-bracelet"
   },
@@ -1772,8 +1989,12 @@ export const editableProducts: Product[] = [
     "id": 714,
     "name": "",
     "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM (2).jpeg"],
-    "tags": ["stone-bracelet"],
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM (2).jpeg"
+    ],
+    "tags": [
+      "stone-bracelet"
+    ],
     "description": "",
     "category": "stone-bracelet"
   },
@@ -1781,8 +2002,12 @@ export const editableProducts: Product[] = [
     "id": 715,
     "name": "",
     "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM.jpeg"],
-    "tags": ["stone-bracelet"],
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet"
+    ],
     "description": "",
     "category": "stone-bracelet"
   },
@@ -1790,8 +2015,12 @@ export const editableProducts: Product[] = [
     "id": 716,
     "name": "",
     "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.12 PM.jpeg"],
-    "tags": ["stone-bracelet"],
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.12 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet"
+    ],
     "description": "",
     "category": "stone-bracelet"
   },
@@ -1799,8 +2028,12 @@ export const editableProducts: Product[] = [
     "id": 717,
     "name": "",
     "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.14 PM (1).jpeg"],
-    "tags": ["stone-bracelet"],
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.14 PM (1).jpeg"
+    ],
+    "tags": [
+      "stone-bracelet"
+    ],
     "description": "",
     "category": "stone-bracelet"
   },
@@ -1808,8 +2041,12 @@ export const editableProducts: Product[] = [
     "id": 718,
     "name": "",
     "price": 0,
-    "images": ["/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.14 PM.jpeg"],
-    "tags": ["stone-bracelet"],
+    "images": [
+      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.14 PM.jpeg"
+    ],
+    "tags": [
+      "stone-bracelet"
+    ],
     "description": "",
     "category": "stone-bracelet"
   },
@@ -1817,8 +2054,12 @@ export const editableProducts: Product[] = [
     "id": 800,
     "name": "",
     "price": 0,
-    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.10 PM (1).jpeg"],
-    "tags": ["earrings"],
+    "images": [
+      "/earring/WhatsApp Image 2026-03-05 at 4.58.10 PM (1).jpeg"
+    ],
+    "tags": [
+      "earrings"
+    ],
     "description": "",
     "category": "earrings"
   },
@@ -1826,8 +2067,12 @@ export const editableProducts: Product[] = [
     "id": 801,
     "name": "",
     "price": 0,
-    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.10 PM.jpeg"],
-    "tags": ["earrings"],
+    "images": [
+      "/earring/WhatsApp Image 2026-03-05 at 4.58.10 PM.jpeg"
+    ],
+    "tags": [
+      "earrings"
+    ],
     "description": "",
     "category": "earrings"
   },
@@ -1835,8 +2080,12 @@ export const editableProducts: Product[] = [
     "id": 802,
     "name": "",
     "price": 0,
-    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM (1).jpeg"],
-    "tags": ["earrings"],
+    "images": [
+      "/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM (1).jpeg"
+    ],
+    "tags": [
+      "earrings"
+    ],
     "description": "",
     "category": "earrings"
   },
@@ -1844,8 +2093,12 @@ export const editableProducts: Product[] = [
     "id": 803,
     "name": "",
     "price": 0,
-    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM (2).jpeg"],
-    "tags": ["earrings"],
+    "images": [
+      "/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM (2).jpeg"
+    ],
+    "tags": [
+      "earrings"
+    ],
     "description": "",
     "category": "earrings"
   },
@@ -1853,8 +2106,12 @@ export const editableProducts: Product[] = [
     "id": 804,
     "name": "",
     "price": 0,
-    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM.jpeg"],
-    "tags": ["earrings"],
+    "images": [
+      "/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM.jpeg"
+    ],
+    "tags": [
+      "earrings"
+    ],
     "description": "",
     "category": "earrings"
   },
@@ -1862,8 +2119,12 @@ export const editableProducts: Product[] = [
     "id": 805,
     "name": "",
     "price": 0,
-    "images": ["/earring/WhatsApp Image 2026-03-05 at 4.58.12 PM.jpeg"],
-    "tags": ["earrings"],
+    "images": [
+      "/earring/WhatsApp Image 2026-03-05 at 4.58.12 PM.jpeg"
+    ],
+    "tags": [
+      "earrings"
+    ],
     "description": "",
     "category": "earrings"
   },
@@ -1871,8 +2132,12 @@ export const editableProducts: Product[] = [
     "id": 900,
     "name": "",
     "price": 0,
-    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.25 PM.jpeg"],
-    "tags": ["bangles"],
+    "images": [
+      "/bangles/WhatsApp Image 2026-03-05 at 5.06.25 PM.jpeg"
+    ],
+    "tags": [
+      "bangles"
+    ],
     "description": "",
     "category": "bangles"
   },
@@ -1880,8 +2145,12 @@ export const editableProducts: Product[] = [
     "id": 901,
     "name": "",
     "price": 0,
-    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM (1).jpeg"],
-    "tags": ["bangles"],
+    "images": [
+      "/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM (1).jpeg"
+    ],
+    "tags": [
+      "bangles"
+    ],
     "description": "",
     "category": "bangles"
   },
@@ -1889,8 +2158,12 @@ export const editableProducts: Product[] = [
     "id": 902,
     "name": "",
     "price": 0,
-    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM (2).jpeg"],
-    "tags": ["bangles"],
+    "images": [
+      "/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM (2).jpeg"
+    ],
+    "tags": [
+      "bangles"
+    ],
     "description": "",
     "category": "bangles"
   },
@@ -1898,8 +2171,12 @@ export const editableProducts: Product[] = [
     "id": 903,
     "name": "",
     "price": 0,
-    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM.jpeg"],
-    "tags": ["bangles"],
+    "images": [
+      "/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM.jpeg"
+    ],
+    "tags": [
+      "bangles"
+    ],
     "description": "",
     "category": "bangles"
   },
@@ -1907,8 +2184,12 @@ export const editableProducts: Product[] = [
     "id": 904,
     "name": "",
     "price": 0,
-    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM (1).jpeg"],
-    "tags": ["bangles"],
+    "images": [
+      "/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM (1).jpeg"
+    ],
+    "tags": [
+      "bangles"
+    ],
     "description": "",
     "category": "bangles"
   },
@@ -1916,8 +2197,12 @@ export const editableProducts: Product[] = [
     "id": 905,
     "name": "",
     "price": 0,
-    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM (2).jpeg"],
-    "tags": ["bangles"],
+    "images": [
+      "/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM (2).jpeg"
+    ],
+    "tags": [
+      "bangles"
+    ],
     "description": "",
     "category": "bangles"
   },
@@ -1925,8 +2210,12 @@ export const editableProducts: Product[] = [
     "id": 906,
     "name": "",
     "price": 0,
-    "images": ["/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM.jpeg"],
-    "tags": ["bangles"],
+    "images": [
+      "/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM.jpeg"
+    ],
+    "tags": [
+      "bangles"
+    ],
     "description": "",
     "category": "bangles"
   }
