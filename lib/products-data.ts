@@ -1961,93 +1961,102 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 712,
-    "name": "",
-    "price": 0,
+    "name": "Diamond cut stone bracelet ",
+    "price": 349,
     "images": [
       "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.07 PM.jpeg"
     ],
     "tags": [
-      "stone-bracelet"
+      "stone-bracelet",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Handmade bracelets with stone and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 713,
-    "name": "",
-    "price": 0,
+    "name": "Stone and Pearl bracelet ",
+    "price": 349,
     "images": [
       "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM (1).jpeg"
     ],
     "tags": [
-      "stone-bracelet"
+      "stone-bracelet",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Handmade bracelets with stone, pearl and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 714,
-    "name": "",
-    "price": 0,
+    "name": "Mother of the pearl",
+    "price": 3499,
     "images": [
       "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM (2).jpeg"
     ],
     "tags": [
-      "stone-bracelet"
+      "stone-bracelet",
+      "for-her",
+      "iconic",
+      "bestseller",
+      "necklaces"
     ],
-    "description": "",
+    "description": "Bracelet and necklace set ",
     "category": "stone-bracelet"
   },
   {
     "id": 715,
-    "name": "",
-    "price": 0,
+    "name": "Diamond cut bracelet ",
+    "price": 349,
     "images": [
       "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.09 PM.jpeg"
     ],
     "tags": [
       "stone-bracelet"
     ],
-    "description": "",
+    "description": "Handmade bracelets with stone and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 716,
-    "name": "",
-    "price": 0,
+    "name": "Light Green stone bracelet ",
+    "price": 299,
     "images": [
       "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.12 PM.jpeg"
     ],
     "tags": [
-      "stone-bracelet"
+      "stone-bracelet",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Handmade bracelets with stone and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 717,
-    "name": "",
-    "price": 0,
+    "name": "Lavender stone bracelet ",
+    "price": 299,
     "images": [
       "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.14 PM (1).jpeg"
     ],
     "tags": [
-      "stone-bracelet"
+      "stone-bracelet",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Handmade bracelets with stone and stainless chain ",
     "category": "stone-bracelet"
   },
   {
     "id": 718,
-    "name": "",
-    "price": 0,
+    "name": "Baby pink bracelet ",
+    "price": 299,
     "images": [
       "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.14 PM.jpeg"
     ],
     "tags": [
-      "stone-bracelet"
+      "stone-bracelet",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Handmade bracelets with stone and stainless chain ",
     "category": "stone-bracelet"
   },
   {
