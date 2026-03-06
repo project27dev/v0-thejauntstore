@@ -2139,93 +2139,97 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 900,
-    "name": "",
-    "price": 0,
+    "name": "Sunflower petals bangles ",
+    "price": 499,
     "images": [
       "/bangles/WhatsApp Image 2026-03-05 at 5.06.25 PM.jpeg"
     ],
     "tags": [
-      "bangles"
+      "bangles",
+      "for-her",
+      "bestseller"
     ],
-    "description": "",
+    "description": "Handmade with real flower and resin ",
     "category": "bangles"
   },
   {
     "id": 901,
-    "name": "",
-    "price": 0,
+    "name": "Yellow rose and petals ",
+    "price": 499,
     "images": [
       "/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM (1).jpeg"
     ],
     "tags": [
       "bangles"
     ],
-    "description": "",
+    "description": "Handmade with real flower and resin ",
     "category": "bangles"
   },
   {
     "id": 902,
-    "name": "",
-    "price": 0,
+    "name": "Rose flowers bangles ",
+    "price": 549,
     "images": [
       "/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM (2).jpeg"
     ],
     "tags": [
-      "bangles"
+      "bangles",
+      "for-her"
     ],
-    "description": "",
+    "description": "Handmade with real flower and resin ",
     "category": "bangles"
   },
   {
     "id": 903,
-    "name": "",
-    "price": 0,
+    "name": "Rose petals with glitter",
+    "price": 499,
     "images": [
       "/bangles/WhatsApp Image 2026-03-05 at 5.06.26 PM.jpeg"
     ],
     "tags": [
       "bangles"
     ],
-    "description": "",
+    "description": "Handmade with real flower and resin ",
     "category": "bangles"
   },
   {
     "id": 904,
-    "name": "",
-    "price": 0,
+    "name": "Rose with golden glitter",
+    "price": 599,
     "images": [
       "/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM (1).jpeg"
     ],
     "tags": [
-      "bangles"
+      "bangles",
+      "for-her"
     ],
-    "description": "",
+    "description": "Handmade with real flower and resin ",
     "category": "bangles"
   },
   {
     "id": 905,
-    "name": "",
-    "price": 0,
+    "name": "Mix flower bangles ",
+    "price": 549,
     "images": [
       "/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM (2).jpeg"
     ],
     "tags": [
       "bangles"
     ],
-    "description": "",
+    "description": "Handmade with real flower and resin ",
     "category": "bangles"
   },
   {
     "id": 906,
-    "name": "",
-    "price": 0,
+    "name": "Green flower bangles ",
+    "price": 499,
     "images": [
       "/bangles/WhatsApp Image 2026-03-05 at 5.06.27 PM.jpeg"
     ],
     "tags": [
       "bangles"
     ],
-    "description": "",
+    "description": "Handmade with real flower and resin ",
     "category": "bangles"
   }
 ]
