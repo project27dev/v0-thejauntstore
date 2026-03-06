@@ -43,7 +43,7 @@ export default function AdminProductsGrid() {
   const [activeCategory, setActiveCategory] = useState<string>("all")
   const [page, setPage] = useState(1)
   const [saving, setSaving] = useState(false)
-  const [uploadingImages, setUploadingImages] = useState<Record<number, boolean>>({})
+
   const [showAddModal, setShowAddModal] = useState(false)
   const [addingProduct, setAddingProduct] = useState(false)
   const [newProduct, setNewProduct] = useState({ name: "", description: "", price: 0, category: "rings", tags: [] as string[], imageFile: null as File | null, imagePreview: "" })
@@ -75,28 +75,6 @@ export default function AdminProductsGrid() {
     }
   }
 
-  const uploadImage = async (productId: number, category: string, file: File) => {
-    setUploadingImages((prev) => ({ ...prev, [productId]: true }))
-    try {
-      const formData = new FormData()
-      formData.append("file", file)
-      formData.append("category", category)
-      const response = await fetch("/api/upload-image", { method: "POST", body: formData })
-      const data = await response.json()
-      if (data.success) {
-        updateProduct(productId, "images", [
-          ...(products.find((p) => p.id === productId)?.images ?? []),
-          data.path,
-        ])
-      } else {
-        alert("Upload failed: " + data.error)
-      }
-    } catch (err) {
-      alert("Upload error: " + (err as Error).message)
-    } finally {
-      setUploadingImages((prev) => ({ ...prev, [productId]: false }))
-    }
-  }
 
   const addProduct = async () => {
     if (!newProduct.name.trim()) return alert("Product name is required.")
@@ -349,54 +327,7 @@ export default function AdminProductsGrid() {
                     </div>
                   </div>
 
-                  {/* Images */}
-                  <div>
-                    <label className="block text-xs font-semibold text-gray-500 mb-1">IMAGES</label>
-                    <div className="flex flex-wrap gap-2">
-                      {product.images.map((img, idx) => (
-                        <div key={idx} className="relative group w-16 h-16">
-                          <img
-                            src={img}
-                            alt={`img-${idx}`}
-                            className="w-full h-full object-cover rounded border border-gray-200"
-                          />
-                          <button
-                            type="button"
-                            onClick={() =>
-                              updateProduct(product.id, "images", product.images.filter((_, i) => i !== idx))
-                            }
-                            className="absolute -top-1.5 -right-1.5 bg-red-500 text-white rounded-full w-4 h-4 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
-                            title="Remove image"
-                          >
-                            <X className="h-2.5 w-2.5" />
-                          </button>
-                        </div>
-                      ))}
 
-                      {/* Upload button */}
-                      <label className="w-16 h-16 border-2 border-dashed border-gray-300 rounded flex items-center justify-center cursor-pointer hover:border-gray-500 transition-colors">
-                        {uploadingImages[product.id] ? (
-                          <Loader2 className="h-5 w-5 text-gray-400 animate-spin" />
-                        ) : (
-                          <Plus className="h-5 w-5 text-gray-400" />
-                        )}
-                        <input
-                          type="file"
-                          accept="image/*"
-                          className="hidden"
-                          disabled={uploadingImages[product.id]}
-                          onChange={(e) => {
-                            const file = e.target.files?.[0]
-                            if (file) {
-                              uploadImage(product.id, product.category, file)
-                              e.target.value = ""
-                            }
-                          }}
-                        />
-                      </label>
-                    </div>
-                    <p className="text-xs text-gray-400 mt-1">Uploads go to GitHub instantly. Save to update product list.</p>
-                  </div>
                 </div>
               </div>
             ))}
