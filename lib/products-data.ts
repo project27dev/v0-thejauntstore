@@ -2244,5 +2244,18 @@ export const editableProducts: Product[] = [
     "images": [
       "/stone-bracelet/DF255509-477F-491B-9596-23A2C4EF8150_Original.jpeg"
     ]
+  },
+  {
+    "id": 908,
+    "name": "Green stone bracelet ",
+    "description": "Handmade stone bracelet for everyday wear ",
+    "price": 199,
+    "category": "stone-bracelet",
+    "tags": [
+      "bracelets"
+    ],
+    "images": [
+      "/stone-bracelet/IMG_0371_Original.jpeg"
+    ]
   }
 ]
