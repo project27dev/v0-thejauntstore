@@ -2271,5 +2271,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/necklaces/IMG_3185.jpeg"
     ]
+  },
+  {
+    "id": 910,
+    "name": "Stone necklaces ",
+    "description": "Handmade stone necklace for every fits",
+    "price": 249,
+    "category": "necklaces",
+    "tags": [
+      "for-her",
+      "necklaces"
+    ],
+    "images": [
+      "/necklaces/IMG_3182.jpeg"
+    ]
   }
 ]
