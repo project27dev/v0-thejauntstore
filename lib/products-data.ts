@@ -2245,5 +2245,20 @@ export const editableProducts: Product[] = [
     "images": [
       "/rings/IMG_2467.jpeg"
     ]
+  },
+  {
+    "id": 908,
+    "name": "Rose flower Jhumka ",
+    "description": "Handmade Jhumka with real flower with stainless metal ",
+    "price": 699,
+    "category": "jhumka",
+    "tags": [
+      "for-her",
+      "bestseller",
+      "jhumka"
+    ],
+    "images": [
+      "/jhumka/IMG_3165.jpeg"
+    ]
   }
 ]
