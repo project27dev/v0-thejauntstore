@@ -2274,5 +2274,18 @@ export const editableProducts: Product[] = [
     "images": [
       "/earrings/IMG_3052.jpeg"
     ]
+  },
+  {
+    "id": 910,
+    "name": "Moon shape earrings in blue ",
+    "description": "Handmade earrings with real flower ",
+    "price": 299,
+    "category": "earrings",
+    "tags": [
+      "earrings"
+    ],
+    "images": [
+      "/earrings/IMG_3049.jpeg"
+    ]
   }
 ]
