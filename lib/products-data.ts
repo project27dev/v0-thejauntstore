@@ -2260,5 +2260,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/jhumka/IMG_3165.jpeg"
     ]
+  },
+  {
+    "id": 909,
+    "name": "Lavender flower earrings ",
+    "description": "Handmade with real lavender flower ",
+    "price": 399,
+    "category": "earrings",
+    "tags": [
+      "for-her",
+      "earrings"
+    ],
+    "images": [
+      "/earrings/IMG_3052.jpeg"
+    ]
   }
 ]
