@@ -2285,5 +2285,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/necklaces/IMG_3182.jpeg"
     ]
+  },
+  {
+    "id": 911,
+    "name": "Resin necklace ",
+    "description": "Handmade with stainless chain and resin lockets ",
+    "price": 499,
+    "category": "necklaces",
+    "tags": [
+      "for-her",
+      "necklaces"
+    ],
+    "images": [
+      "/necklaces/IMG_3179.jpeg"
+    ]
   }
 ]
