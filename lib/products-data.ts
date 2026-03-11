@@ -2234,72 +2234,15 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 907,
-    "name": "The green flower ring",
-    "description": "Handmade ring with real flower stainless & adjustable ",
-    "price": 249,
-    "category": "rings",
+    "name": "Stone bracelet ",
+    "description": "Cute handmade stone bracelet for everyday wear ",
+    "price": 199,
+    "category": "stone-bracelet",
     "tags": [
-      "rings",
-      "for-her"
+      "bracelets"
     ],
     "images": [
-      "/rings/IMG_2467.jpeg"
-    ]
-  },
-  {
-    "id": 908,
-    "name": "Rose flower Jhumka ",
-    "description": "Handmade Jhumka with real flower with stainless metal ",
-    "price": 699,
-    "category": "jhumka",
-    "tags": [
-      "for-her",
-      "bestseller",
-      "jhumka"
-    ],
-    "images": [
-      "/jhumka/IMG_3165.jpeg"
-    ]
-  },
-  {
-    "id": 909,
-    "name": "Lavender flower earrings ",
-    "description": "Handmade with real lavender flower ",
-    "price": 399,
-    "category": "earrings",
-    "tags": [
-      "for-her",
-      "earrings"
-    ],
-    "images": [
-      "/earrings/IMG_3052.jpeg"
-    ]
-  },
-  {
-    "id": 910,
-    "name": "Moon shape earrings in blue ",
-    "description": "Handmade earrings with real flower ",
-    "price": 299,
-    "category": "earrings",
-    "tags": [
-      "earrings"
-    ],
-    "images": [
-      "/earrings/IMG_3049.jpeg"
-    ]
-  },
-  {
-    "id": 911,
-    "name": "The red earrings ",
-    "description": "Handmade earrings with real flower ",
-    "price": 299,
-    "category": "earrings",
-    "tags": [
-      "earrings",
-      "for-her"
-    ],
-    "images": [
-      "/earrings/IMG_3048.jpeg"
+      "/stone-bracelet/DF255509-477F-491B-9596-23A2C4EF8150_Original.jpeg"
     ]
   }
 ]
