@@ -2257,5 +2257,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/stone-bracelet/IMG_0371_Original.jpeg"
     ]
+  },
+  {
+    "id": 909,
+    "name": "Baby pink stone necklace ",
+    "description": "Handmade stone necklace for everyday wear ",
+    "price": 249,
+    "category": "necklaces",
+    "tags": [
+      "for-her",
+      "necklaces"
+    ],
+    "images": [
+      "/necklaces/IMG_3185.jpeg"
+    ]
   }
 ]
