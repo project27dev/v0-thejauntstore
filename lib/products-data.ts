@@ -2231,5 +2231,19 @@ export const editableProducts: Product[] = [
     ],
     "description": "Handmade with real flower and resin ",
     "category": "bangles"
+  },
+  {
+    "id": 907,
+    "name": "The green flower ring",
+    "description": "Handmade ring with real flower stainless & adjustable ",
+    "price": 249,
+    "category": "rings",
+    "tags": [
+      "rings",
+      "for-her"
+    ],
+    "images": [
+      "/rings/IMG_2467.jpeg"
+    ]
   }
 ]
