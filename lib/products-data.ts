@@ -2303,7 +2303,7 @@ export const editableProducts: Product[] = [
   {
     "id": 912,
     "name": "Stone necklace ",
-    "description": "Pick the color for your fit ",
+    "description": "Pick the colour for your fit ",
     "price": 599,
     "category": "necklaces",
     "tags": [
