@@ -56,9 +56,8 @@ export async function POST(req: NextRequest) {
     // Match from "export const editableProducts" to the end of file
     // Capture group $1 keeps the declaration, replace everything after =
     const regex = /(export const editableProducts: Product\[\] = )[\s\S]*/
-    const newProductsArray = `$1${JSON.stringify(editableProducts, null, 2)}`
-    
-    const newContent = oldContent.replace(regex, newProductsArray)
+
+    const newContent = oldContent.replace(regex, (_, declaration) => declaration + JSON.stringify(editableProducts, null, 2))
     
     console.log("New content preview:", newContent.substring(0, 300))
     console.log("Replacement successful:", regex.test(oldContent))
