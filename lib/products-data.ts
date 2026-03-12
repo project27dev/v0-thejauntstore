@@ -2335,5 +2335,22 @@ export const editableProducts: Product[] = [
     "images": [
       "/pearl/IMG_3180.jpeg"
     ]
+  },
+  {
+    "id": 914,
+    "name": "Mother of the pearl set ",
+    "description": "Earrings and bracelet ",
+    "price": 1148,
+    "category": "rings",
+    "tags": [
+      "for-her",
+      "iconic",
+      "pearl",
+      "earrings",
+      "bracelets"
+    ],
+    "images": [
+      "/rings/IMG_3291_Original.jpeg"
+    ]
   }
 ]
