@@ -788,288 +788,294 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 300,
-    "name": "",
-    "price": 0,
+    "name": "Rose flower Pakistani jhumka ",
+    "price": 649,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 3.53.09 PM.jpeg"
     ],
     "tags": [
-      "jhumka"
+      "jhumka",
+      "for-her",
+      "iconic"
     ],
-    "description": "",
+    "description": "Handmade real rose flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 301,
-    "name": "",
-    "price": 0,
+    "name": "Baby pink Pakistani Jhumka ",
+    "price": 599,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 3.53.10 PM (1).jpeg"
     ],
     "tags": [
-      "jhumka"
+      "jhumka",
+      "for-her",
+      "iconic"
     ],
-    "description": "",
+    "description": "Handmade real baby pink flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 302,
-    "name": "",
-    "price": 0,
+    "name": "Baby pink and lavender Jhumka ",
+    "price": 599,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 3.53.10 PM (2).jpeg"
     ],
     "tags": [
-      "jhumka"
+      "jhumka",
+      "for-her"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 303,
-    "name": "",
-    "price": 0,
+    "name": "Yellow & green Jhumka ",
+    "price": 599,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 3.53.10 PM.jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 304,
-    "name": "",
-    "price": 0,
+    "name": "Lavender with baby pink stone jhumka",
+    "price": 599,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 3.53.11 PM.jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 305,
-    "name": "",
-    "price": 0,
+    "name": "Deshi Jhumka with real flower ",
+    "price": 299,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.37 PM (1).jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 306,
-    "name": "",
-    "price": 0,
+    "name": "Baby pink Jhumka ",
+    "price": 629,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.37 PM.jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real baby pink & green flower Jhumka also stainless ",
     "category": "jhumka"
   },
   {
     "id": 307,
-    "name": "",
-    "price": 0,
+    "name": "Vintage white flower Jhumka ",
+    "price": 599,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.38 PM (1).jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 308,
-    "name": "",
-    "price": 0,
+    "name": "Vintage golden & white flower Jhumka ",
+    "price": 599,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.38 PM.jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 309,
-    "name": "",
-    "price": 0,
+    "name": "Deshi real flower Jhumka ",
+    "price": 349,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM (1).jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 310,
-    "name": "",
-    "price": 0,
+    "name": "Vintage Jhumka ",
+    "price": 449,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM (2).jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 311,
-    "name": "",
-    "price": 0,
+    "name": "Deshi Jhumka with rose petals ",
+    "price": 349,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.39 PM.jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 312,
-    "name": "",
-    "price": 0,
+    "name": "Egypt Jhumka ",
+    "price": 499,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (1).jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 313,
-    "name": "",
-    "price": 0,
+    "name": "Deshi Jhumka with rose flowers ",
+    "price": 499,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (2).jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 314,
-    "name": "",
-    "price": 0,
+    "name": "vintage jhumka ",
+    "price": 599,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM (3).jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 315,
-    "name": "",
-    "price": 0,
+    "name": "Deshi Jhumka ",
+    "price": 349,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.40 PM.jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real rose flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 316,
-    "name": "",
-    "price": 0,
+    "name": "Vintage Jhumka ",
+    "price": 299,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM (1).jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 317,
-    "name": "",
-    "price": 0,
+    "name": "Baby pink Jhumka ",
+    "price": 599,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM (2).jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 318,
-    "name": "",
-    "price": 0,
+    "name": "Deshi Jhumka ",
+    "price": 349,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.41 PM.jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 319,
-    "name": "",
-    "price": 0,
+    "name": "Pakistani jhumka in white ",
+    "price": 599,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.42 PM (1).jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 320,
-    "name": "",
-    "price": 0,
+    "name": "Shun flower Jhumka ",
+    "price": 599,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.42 PM.jpeg"
     ],
     "tags": [
-      "jhumka"
+      "jhumka",
+      "for-her"
     ],
-    "description": "",
+    "description": "Handmade real  flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
     "id": 321,
-    "name": "",
-    "price": 0,
+    "name": "Pink sunflower Jhumka ",
+    "price": 399,
     "images": [
       "/jhumka/WhatsApp Image 2026-03-05 at 5.02.43 PM.jpeg"
     ],
     "tags": [
       "jhumka"
     ],
-    "description": "",
+    "description": "Handmade real flower Jhumka & stainless ",
     "category": "jhumka"
   },
   {
@@ -2308,7 +2314,8 @@ export const editableProducts: Product[] = [
     "category": "necklaces",
     "tags": [
       "for-her",
-      "necklaces"
+      "necklaces",
+      "stone-bracelet"
     ],
     "images": [
       "/necklaces/IMG_3181.jpeg"
