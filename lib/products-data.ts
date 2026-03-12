@@ -1564,15 +1564,17 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 600,
-    "name": "",
-    "price": 0,
+    "name": "Necklace ",
+    "price": 1499,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 4.50.31 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "necklaces"
     ],
-    "description": "",
+    "description": "Choice your design ",
     "category": "pearl"
   },
   {
