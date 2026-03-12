@@ -1761,41 +1761,49 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 615,
-    "name": "",
-    "price": 0,
+    "name": "White and rainbow pearl ",
+    "price": 399,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.19 PM (1).jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "bestseller",
+      "pendants"
     ],
-    "description": "",
+    "description": "Mother of the pearl lockets ",
     "category": "pearl"
   },
   {
     "id": 616,
-    "name": "",
-    "price": 0,
+    "name": "Rice pearl bracelet ",
+    "price": 999,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.19 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Natural rice pearl bracelet ",
     "category": "pearl"
   },
   {
     "id": 617,
-    "name": "",
-    "price": 0,
+    "name": "Mother of the pearl ",
+    "price": 748,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.20 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "bracelets",
+      "earrings"
     ],
-    "description": "",
+    "description": "Earrings and bracelets with stainless chain ",
     "category": "pearl"
   },
   {
