@@ -429,7 +429,7 @@ export const editableProducts: Product[] = [
   {
     "id": 200,
     "name": "Wildflower Gold Pendant",
-    "price": 349,
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.24 AM.jpeg"
     ],
@@ -445,7 +445,7 @@ export const editableProducts: Product[] = [
   {
     "id": 201,
     "name": "Garden Essence Pendant",
-    "price": 349,
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.25 AM.jpeg"
     ],
@@ -559,7 +559,7 @@ export const editableProducts: Product[] = [
   {
     "id": 208,
     "name": "Floral Resin Pendant",
-    "price": 349,
+    "price": 299,
     "images": [
       "/pendent/WhatsApp Image 2025-12-30 at 7.05.33 AM.jpeg"
     ],
