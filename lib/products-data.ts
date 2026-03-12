@@ -1080,35 +1080,45 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 400,
-    "name": "",
-    "price": 0,
+    "name": "Green resin locket ",
+    "price": 299,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.07.54 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and real flower Jhumka also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 401,
-    "name": "",
-    "price": 0,
+    "name": "Vintage resin locket ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.07.55 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and real flower Jhumka also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 402,
-    "name": "",
-    "price": 0,
+    "name": "Green & light blue matching lockets ",
+    "price": 549,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.12.54 PM (1).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "pendants",
+      "for-her",
+      "for-him"
+    ],
+    "description": "Handmade with care and real flower Jhumka also stainless chain ",
     "category": "pendants"
   },
   {
