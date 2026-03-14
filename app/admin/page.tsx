@@ -1,9 +1,10 @@
 "use client"
 
 import { useState, useMemo } from "react"
+import { useRouter } from "next/navigation"
 import { products as initialProducts, type Product } from "@/lib/products"
 import { Button } from "@/components/ui/button"
-import { Search, ChevronLeft, ChevronRight, Trash2, X, Plus, Loader2 } from "lucide-react"
+import { Search, ChevronLeft, ChevronRight, Trash2, X, Plus, Loader2, LogOut } from "lucide-react"
 
 const categories = ["rings", "necklaces", "earrings", "bracelets", "pendants", "jhumka", "pearl", "bangles", "stone-bracelet"]
 
@@ -38,11 +39,17 @@ const tagOptions: { [key: string]: string } = {
 const PAGE_SIZE = 12
 
 export default function AdminProductsGrid() {
+  const router = useRouter()
   const [products, setProducts] = useState<Product[]>([...initialProducts])
   const [search, setSearch] = useState("")
   const [activeCategory, setActiveCategory] = useState<string>("all")
   const [page, setPage] = useState(1)
   const [saving, setSaving] = useState(false)
+
+  const handleLogout = async () => {
+    await fetch("/api/admin/logout", { method: "POST" })
+    router.push("/admin/login")
+  }
 
   const [showAddModal, setShowAddModal] = useState(false)
   const [addingProduct, setAddingProduct] = useState(false)
@@ -170,6 +177,9 @@ export default function AdminProductsGrid() {
               </Button>
               <Button onClick={handleSave} disabled={saving}>
                 {saving ? "Saving..." : "Save & Commit to GitHub"}
+              </Button>
+              <Button variant="outline" onClick={handleLogout} title="Logout">
+                <LogOut className="h-4 w-4" />
               </Button>
             </div>
           </div>
