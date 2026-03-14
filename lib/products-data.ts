@@ -1118,106 +1118,129 @@ export const editableProducts: Product[] = [
       "for-her",
       "for-him"
     ],
-    "description": "Handmade with care and real flower Jhumka also stainless chain ",
+    "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 403,
-    "name": "",
-    "price": 0,
+    "name": "Navy Blue flower in silver ",
+    "price": 299,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.12.54 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "for-him",
+      "pendants"
+    ],
+    "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 404,
-    "name": "",
-    "price": 0,
+    "name": "Blue moon ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.39 PM (1).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 405,
-    "name": "",
-    "price": 0,
+    "name": "The Green classy locket ",
+    "price": 299,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.39 PM (2).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 406,
-    "name": "",
-    "price": 0,
+    "name": "Rose locket in every shape ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.39 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 407,
-    "name": "",
-    "price": 0,
+    "name": "Vintage locket",
+    "price": 299,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.40 PM (1).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 408,
-    "name": "",
-    "price": 0,
+    "name": "Rose and golden moon ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.40 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "necklaces"
+    ],
+    "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 409,
-    "name": "",
-    "price": 0,
+    "name": "Green in locket ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.41 PM (1).jpeg"
     ],
     "tags": [],
-    "description": "",
+    "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 410,
-    "name": "",
-    "price": 0,
+    "name": "Lavender locket ",
+    "price": 299,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.41 PM (2).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "pendants"
+    ],
+    "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
   },
   {
     "id": 411,
-    "name": "",
-    "price": 0,
+    "name": "Sky locket ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.41 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "pendants"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
