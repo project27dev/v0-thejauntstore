@@ -27,7 +27,7 @@ const categories = [
     href: "/products?filter=bracelets",
   },
   {
-    name: "Jhumpka",
+    name: "Jhumka",
     image: "/cat_jhumpka.jpeg",
     href: "/products?filter=jhumka",
   },

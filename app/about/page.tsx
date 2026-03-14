@@ -167,7 +167,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               {[
                 { number: "500+", label: "Pieces crafted" },
-                { number: "12+", label: "Botanicals used" },
+                { number: "1200+", label: "Botanicals used" },
                 { number: "100%", label: "Handmade" },
                 { number: "1", label: "Of a kind each" },
               ].map((stat) => (
