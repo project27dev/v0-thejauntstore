@@ -1245,35 +1245,44 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 412,
-    "name": "",
-    "price": 0,
+    "name": "Blue sky ",
+    "price": 2490,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.42 PM (1).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "pendants"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 413,
-    "name": "",
-    "price": 0,
+    "name": "Matching lockets ",
+    "price": 499,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.42 PM (2).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "for-him",
+      "pendants"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 414,
-    "name": "",
-    "price": 0,
+    "name": "Baby pink moon ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.42 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
