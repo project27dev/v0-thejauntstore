@@ -2456,5 +2456,21 @@ export const editableProducts: Product[] = [
     "images": [
       "/rings/IMG_3291_Original.jpeg"
     ]
+  },
+  {
+    "id": 915,
+    "name": "Red garden lockets",
+    "description": "Handmade with real flower and stainless chain",
+    "price": 299,
+    "category": "pendants",
+    "tags": [
+      "for-her",
+      "new-in",
+      "bestseller",
+      "pendants"
+    ],
+    "images": [
+      "/pendants/IMG_3314.jpeg"
+    ]
   }
 ]
