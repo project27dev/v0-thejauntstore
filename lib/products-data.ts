@@ -1116,7 +1116,8 @@ export const editableProducts: Product[] = [
     "tags": [
       "pendants",
       "for-her",
-      "for-him"
+      "for-him",
+      "matching-sets"
     ],
     "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
@@ -1173,7 +1174,8 @@ export const editableProducts: Product[] = [
     ],
     "tags": [
       "for-her",
-      "pendants"
+      "pendants",
+      "matching-sets"
     ],
     "description": "Handmade with care and real flower also stainless chain ",
     "category": "pendants"
@@ -1251,7 +1253,8 @@ export const editableProducts: Product[] = [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.42 PM (1).jpeg"
     ],
     "tags": [
-      "pendants"
+      "pendants",
+      "matching-sets"
     ],
     "description": "Handmade with care and stainless chain ",
     "category": "pendants"
@@ -1266,7 +1269,8 @@ export const editableProducts: Product[] = [
     "tags": [
       "for-her",
       "for-him",
-      "pendants"
+      "pendants",
+      "matching-sets"
     ],
     "description": "Handmade with care and stainless chain ",
     "category": "pendants"
@@ -1460,23 +1464,31 @@ export const editableProducts: Product[] = [
   {
     "id": 429,
     "name": "Rose lockets for your love one",
-    "price": 0,
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.48 PM (2).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "for-him",
+      "new-in",
+      "necklaces"
+    ],
+    "description": "Available in every shape handmade with real rose flower and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 430,
-    "name": "",
-    "price": 0,
+    "name": "Rose in heart ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.48 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
@@ -1550,19 +1562,6 @@ export const editableProducts: Product[] = [
     "price": 0,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM (1).jpeg"
-    ],
-    "tags": [
-      "bracelets"
-    ],
-    "description": "",
-    "category": "bracelets"
-  },
-  {
-    "id": 506,
-    "name": "",
-    "price": 0,
-    "images": [
-      "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM (2).jpeg"
     ],
     "tags": [
       "bracelets"
@@ -1678,93 +1677,107 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 604,
-    "name": "",
-    "price": 0,
+    "name": "Mother of the pearl bracelet ",
+    "price": 3490,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.04 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Handmade bracelets with real pearl ",
     "category": "pearl"
   },
   {
     "id": 605,
-    "name": "",
-    "price": 0,
+    "name": "Mother of the pearl locket ",
+    "price": 299,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.05 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "for-him",
+      "new-in",
+      "pendants"
     ],
-    "description": "",
+    "description": "Real mother of the pearl locket in golden and silver ",
     "category": "pearl"
   },
   {
     "id": 606,
-    "name": "",
-    "price": 0,
+    "name": "Pearl necklace ",
+    "price": 2789,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.06 PM (1).jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "necklaces"
     ],
-    "description": "",
+    "description": "Handmade necklace with real pearl ",
     "category": "pearl"
   },
   {
     "id": 607,
-    "name": "",
-    "price": 0,
+    "name": "Pearl necklace ",
+    "price": 3000,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.06 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "new-in",
+      "necklaces"
     ],
-    "description": "",
+    "description": "Handmade necklace with real pearl ",
     "category": "pearl"
   },
   {
     "id": 608,
-    "name": "",
-    "price": 0,
+    "name": "Pearl bracelet ",
+    "price": 399,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM (1).jpeg"
     ],
     "tags": [
       "pearl"
     ],
-    "description": "",
+    "description": "Made with real pearl with care and love ",
     "category": "pearl"
   },
   {
     "id": 609,
-    "name": "",
-    "price": 0,
+    "name": "Pearl bracelet ",
+    "price": 399,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM (2).jpeg"
     ],
     "tags": [
       "pearl"
     ],
-    "description": "",
+    "description": "Made with real pearl with care and love ",
     "category": "pearl"
   },
   {
     "id": 610,
-    "name": "",
-    "price": 0,
+    "name": "Rice pearl ring & bracelet ",
+    "price": 8980,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "new-in",
+      "rings"
     ],
-    "description": "",
+    "description": "Real rice pearl bracelet and ring you guys can make custom too !",
     "category": "pearl"
   },
   {
