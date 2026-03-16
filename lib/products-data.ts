@@ -1493,132 +1493,145 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 500,
-    "name": "",
-    "price": 0,
+    "name": "Flower garden bracelet ",
+    "price": 249,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.11.24 PM (1).jpeg"
     ],
     "tags": [
-      "bracelets"
+      "bracelets",
+      "for-her"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
     "category": "bracelets"
   },
   {
     "id": 501,
-    "name": "",
-    "price": 0,
+    "name": "White flower bracelet ",
+    "price": 299,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.11.24 PM.jpeg"
     ],
     "tags": [
-      "bracelets"
+      "bracelets",
+      "for-her",
+      "new-in"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
     "category": "bracelets"
   },
   {
     "id": 502,
-    "name": "",
-    "price": 0,
+    "name": "Rise heart bracelet ",
+    "price": 249,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.11.25 PM (1).jpeg"
     ],
     "tags": [
-      "bracelets"
+      "bracelets",
+      "for-her",
+      "new-in"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
     "category": "bracelets"
   },
   {
     "id": 503,
-    "name": "",
-    "price": 0,
+    "name": "Flower garden bracelet ",
+    "price": 249,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.11.25 PM.jpeg"
     ],
     "tags": [
-      "bracelets"
+      "bracelets",
+      "new-in"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
     "category": "bracelets"
   },
   {
     "id": 504,
-    "name": "",
-    "price": 0,
+    "name": "Garden bracelets",
+    "price": 249,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.04 PM.jpeg"
     ],
     "tags": [
       "bracelets"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
     "category": "bracelets"
   },
   {
     "id": 505,
-    "name": "",
-    "price": 0,
+    "name": "Flower garden bracelet ",
+    "price": 349,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM (1).jpeg"
     ],
     "tags": [
-      "bracelets"
+      "bracelets",
+      "for-her",
+      "new-in"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
     "category": "bracelets"
   },
   {
     "id": 507,
-    "name": "",
-    "price": 0,
+    "name": "Sunflowers bracelets",
+    "price": 299,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM (3).jpeg"
     ],
     "tags": [
-      "bracelets"
+      "bracelets",
+      "for-her"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
     "category": "bracelets"
   },
   {
     "id": 508,
-    "name": "",
-    "price": 0,
+    "name": "Green flower bracelet ",
+    "price": 249,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.05 PM.jpeg"
     ],
     "tags": [
-      "bracelets"
+      "bracelets",
+      "for-her",
+      "new-in"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
     "category": "bracelets"
   },
   {
     "id": 509,
-    "name": "",
-    "price": 0,
+    "name": "Vintage bracelet ",
+    "price": 299,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.06 PM (1).jpeg"
     ],
     "tags": [
-      "bracelets"
+      "bracelets",
+      "for-her"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
     "category": "bracelets"
   },
   {
     "id": 510,
-    "name": "",
-    "price": 0,
+    "name": "Vintage bracelets",
+    "price": 299,
     "images": [
       "/bracelet/WhatsApp Image 2026-03-05 at 4.26.06 PM.jpeg"
     ],
     "tags": [
-      "bracelets"
+      "bracelets",
+      "for-her"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
     "category": "bracelets"
   },
   {
