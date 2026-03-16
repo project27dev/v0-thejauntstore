@@ -1624,7 +1624,7 @@ export const editableProducts: Product[] = [
   {
     "id": 600,
     "name": "Necklace ",
-    "price": 1499,
+    "price": 1899,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 4.50.31 PM.jpeg"
     ],
@@ -1638,54 +1638,60 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 601,
-    "name": "",
-    "price": 0,
+    "name": "Pearl bracelet ",
+    "price": 349,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.01 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Handmade bracelets with real pearl ",
     "category": "pearl"
   },
   {
     "id": 602,
-    "name": "",
-    "price": 0,
+    "name": "Pearl in golden ",
+    "price": 349,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.03 PM (1).jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Handmade bracelets with real pearl ",
     "category": "pearl"
   },
   {
     "id": 603,
-    "name": "",
-    "price": 0,
+    "name": "Pearl in silver ",
+    "price": 349,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.03 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Handmade bracelets with real pearl ",
     "category": "pearl"
   },
   {
     "id": 604,
     "name": "Mother of the pearl bracelet ",
-    "price": 3490,
+    "price": 349,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.04 PM.jpeg"
     ],
     "tags": [
       "pearl",
       "for-her",
-      "bracelets"
+      "bracelets",
+      "new-in"
     ],
     "description": "Handmade bracelets with real pearl ",
     "category": "pearl"
