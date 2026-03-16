@@ -1458,19 +1458,8 @@ export const editableProducts: Product[] = [
     "category": "pendants"
   },
   {
-    "id": 428,
-    "name": "",
-    "price": 0,
-    "images": [
-      "/locket/WhatsApp Image 2026-03-05 at 4.20.48 PM (1).jpeg"
-    ],
-    "tags": [],
-    "description": "",
-    "category": "pendants"
-  },
-  {
     "id": 429,
-    "name": "",
+    "name": "Rose lockets for your love one",
     "price": 0,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.48 PM (2).jpeg"
