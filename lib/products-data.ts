@@ -1356,79 +1356,105 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 421,
-    "name": "",
-    "price": 0,
+    "name": "Any colour locket ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.45 PM (1).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with real flowers and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 422,
-    "name": "",
-    "price": 0,
+    "name": "White sunflower locket ",
+    "price": 299,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.45 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "necklaces",
+      "for-her"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 423,
-    "name": "",
-    "price": 0,
+    "name": "Baby pink locket ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.46 PM (1).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "necklaces"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 424,
-    "name": "",
-    "price": 0,
+    "name": "The rose heart locket ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.46 PM (2).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "iconic",
+      "new-in",
+      "pendants"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 425,
-    "name": "",
-    "price": 0,
+    "name": "Sky design moon locket ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.46 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-him",
+      "for-her",
+      "new-in",
+      "necklaces"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 426,
-    "name": "",
-    "price": 0,
+    "name": "The garden lockets",
+    "price": 299,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.47 PM (1).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "necklaces",
+      "new-in"
+    ],
+    "description": "Handmade with real flowers and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 427,
-    "name": "",
-    "price": 0,
+    "name": "Ocean locket ",
+    "price": 299,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.47 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-him",
+      "for-her"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
