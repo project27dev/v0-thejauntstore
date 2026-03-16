@@ -748,10 +748,12 @@ export const editableProducts: Product[] = [
       "gold",
       "resin",
       "handmade",
-      "iconic"
+      "iconic",
+      "jhumka",
+      "earrings"
     ],
     "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
-    "category": "earrings"
+    "category": "jhumka"
   },
   {
     "id": 220,
@@ -766,7 +768,7 @@ export const editableProducts: Product[] = [
       "gold"
     ],
     "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
-    "category": "earrings"
+    "category": "jhumka"
   },
   {
     "id": 221,
@@ -784,7 +786,7 @@ export const editableProducts: Product[] = [
       "resin"
     ],
     "description": "A simple handcrafted resin Jhumka for deshi outfits stainless & natural elements.",
-    "category": "earrings"
+    "category": "jhumka"
   },
   {
     "id": 300,
@@ -2445,7 +2447,7 @@ export const editableProducts: Product[] = [
     "name": "Mother of the pearl set ",
     "description": "Earrings and bracelet ",
     "price": 1148,
-    "category": "rings",
+    "category": "pearl",
     "tags": [
       "for-her",
       "iconic",
