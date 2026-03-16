@@ -2472,5 +2472,20 @@ export const editableProducts: Product[] = [
     "images": [
       "/pendants/IMG_3314.jpeg"
     ]
+  },
+  {
+    "id": 916,
+    "name": "Lavender flower earrings ",
+    "description": "Handmade with real lavender flower ",
+    "price": 399,
+    "category": "earrings",
+    "tags": [
+      "for-her",
+      "new-in",
+      "earrings"
+    ],
+    "images": [
+      "/earrings/IMG_3052.jpeg"
+    ]
   }
 ]
