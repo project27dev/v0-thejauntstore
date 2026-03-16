@@ -1287,68 +1287,71 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 415,
-    "name": "",
-    "price": 0,
+    "name": "Blue space ",
+    "price": 299,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.43 PM (1).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 416,
-    "name": "",
-    "price": 0,
+    "name": "Blue silver moon ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.43 PM (2).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "pendants"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 417,
-    "name": "",
-    "price": 0,
+    "name": "Small garden locket ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.43 PM.jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
     "id": 418,
-    "name": "",
-    "price": 0,
+    "name": "The blue flower locket ",
+    "price": 249,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.44 PM (1).jpeg"
     ],
-    "tags": [],
-    "description": "",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "description": "Handmade with care and stainless chain \nYou can make it as a locket & bracelet as well",
     "category": "pendants"
   },
   {
     "id": 419,
-    "name": "",
-    "price": 0,
+    "name": "Vintage flower locket ",
+    "price": 299,
     "images": [
       "/locket/WhatsApp Image 2026-03-05 at 4.20.44 PM (2).jpeg"
     ],
-    "tags": [],
-    "description": "",
-    "category": "pendants"
-  },
-  {
-    "id": 420,
-    "name": "",
-    "price": 0,
-    "images": [
-      "/locket/WhatsApp Image 2026-03-05 at 4.20.44 PM.jpeg"
+    "tags": [
+      "for-her",
+      "pendants"
     ],
-    "tags": [],
-    "description": "",
+    "description": "Handmade with care and stainless chain ",
     "category": "pendants"
   },
   {
