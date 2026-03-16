@@ -1788,15 +1788,17 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 611,
-    "name": "",
-    "price": 0,
+    "name": "Pearl in both silver & golden ",
+    "price": 349,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.11 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "for-her",
+      "bracelets"
     ],
-    "description": "",
+    "description": "Handmade bracelets with real pearl ",
     "category": "pearl"
   },
   {
