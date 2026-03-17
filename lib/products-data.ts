@@ -2186,19 +2186,6 @@ export const editableProducts: Product[] = [
     "category": "earrings"
   },
   {
-    "id": 802,
-    "name": "",
-    "price": 0,
-    "images": [
-      "/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM (1).jpeg"
-    ],
-    "tags": [
-      "earrings"
-    ],
-    "description": "",
-    "category": "earrings"
-  },
-  {
     "id": 803,
     "name": "",
     "price": 0,
@@ -2208,7 +2195,7 @@ export const editableProducts: Product[] = [
     "tags": [
       "earrings"
     ],
-    "description": "",
+    "description": "Handmade with real flower with stainless earring ",
     "category": "earrings"
   },
   {
