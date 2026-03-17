@@ -2173,28 +2173,30 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 800,
-    "name": "",
-    "price": 0,
+    "name": "Tree stone earring",
+    "price": 499,
     "images": [
       "/earring/WhatsApp Image 2026-03-05 at 4.58.10 PM (1).jpeg"
     ],
     "tags": [
-      "earrings"
+      "earrings",
+      "for-her"
     ],
-    "description": "",
+    "description": "Handmade with stone tree design earring ",
     "category": "earrings"
   },
   {
     "id": 801,
-    "name": "",
-    "price": 0,
+    "name": "Baby pink earring ",
+    "price": 399,
     "images": [
       "/earring/WhatsApp Image 2026-03-05 at 4.58.10 PM.jpeg"
     ],
     "tags": [
-      "earrings"
+      "earrings",
+      "for-her"
     ],
-    "description": "",
+    "description": "Handmade with real flower and stainless base earring ",
     "category": "earrings"
   },
   {
@@ -2225,15 +2227,15 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 804,
-    "name": "",
-    "price": 0,
+    "name": "Baby pink earring ",
+    "price": 349,
     "images": [
       "/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM.jpeg"
     ],
     "tags": [
       "earrings"
     ],
-    "description": "",
+    "description": "Handmade with real flower with stainless earring ",
     "category": "earrings"
   },
   {
@@ -2488,20 +2490,6 @@ export const editableProducts: Product[] = [
     ],
     "images": [
       "/earrings/IMG_3052.jpeg"
-    ]
-  },
-  {
-    "id": 917,
-    "name": "Moon earrings ",
-    "description": "Handmade with lavender flowers petals with stainless border ",
-    "price": 349,
-    "category": "earrings",
-    "tags": [
-      "for-her",
-      "earrings"
-    ],
-    "images": [
-      "/earrings/IMG_3054.jpeg"
     ]
   }
 ]
