@@ -2479,5 +2479,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/earrings/IMG_3050.jpeg"
     ]
+  },
+  {
+    "id": 918,
+    "name": "Red earring ",
+    "description": "Handmade with real flower with stainless earring ",
+    "price": 399,
+    "category": "earrings",
+    "tags": [
+      "for-her",
+      "earrings"
+    ],
+    "images": [
+      "/earrings/IMG_3048.jpeg"
+    ]
   }
 ]
