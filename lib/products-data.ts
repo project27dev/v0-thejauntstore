@@ -2507,5 +2507,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/earrings/IMG_3054.jpeg"
     ]
+  },
+  {
+    "id": 920,
+    "name": "The garden bracelet ",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
+    "price": 349,
+    "category": "bracelets",
+    "tags": [
+      "for-her",
+      "bracelets"
+    ],
+    "images": [
+      "/bracelets/IMG_3238.jpeg"
+    ]
   }
 ]
