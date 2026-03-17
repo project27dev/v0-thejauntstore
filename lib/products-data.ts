@@ -2187,13 +2187,14 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 803,
-    "name": "",
-    "price": 0,
+    "name": "Red flower earring ",
+    "price": 399,
     "images": [
       "/earring/WhatsApp Image 2026-03-05 at 4.58.11 PM (2).jpeg"
     ],
     "tags": [
-      "earrings"
+      "earrings",
+      "for-her"
     ],
     "description": "Handmade with real flower with stainless earring ",
     "category": "earrings"
@@ -2213,15 +2214,15 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 805,
-    "name": "",
-    "price": 0,
+    "name": "White mountain flower earring",
+    "price": 399,
     "images": [
       "/earring/WhatsApp Image 2026-03-05 at 4.58.12 PM.jpeg"
     ],
     "tags": [
       "earrings"
     ],
-    "description": "",
+    "description": "Handmade with real flower with stainless earring ",
     "category": "earrings"
   },
   {
