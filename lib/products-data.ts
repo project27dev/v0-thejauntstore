@@ -1746,7 +1746,7 @@ export const editableProducts: Product[] = [
   {
     "id": 607,
     "name": "Pearl necklace ",
-    "price": 3000,
+    "price": 2999,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.06 PM.jpeg"
     ],
@@ -1788,7 +1788,7 @@ export const editableProducts: Product[] = [
   {
     "id": 610,
     "name": "Rice pearl ring & bracelet ",
-    "price": 8980,
+    "price": 898,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.09 PM.jpeg"
     ],
