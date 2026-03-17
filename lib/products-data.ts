@@ -2553,7 +2553,7 @@ export const editableProducts: Product[] = [
   {
     "id": 923,
     "name": "Lavender in silver ",
-    "description": "",
+    "description": "Handmade with real flower and stainless chain",
     "price": 299,
     "category": "pendants",
     "tags": [
