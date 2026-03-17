@@ -2549,5 +2549,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/bracelets/IMG_3240.jpeg"
     ]
+  },
+  {
+    "id": 923,
+    "name": "Lavender in silver ",
+    "description": "",
+    "price": 299,
+    "category": "pendants",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "images": [
+      "/pendants/IMG_3058.jpeg"
+    ]
   }
 ]
