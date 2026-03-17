@@ -2569,7 +2569,7 @@ export const editableProducts: Product[] = [
     "name": "Pearl necklace ",
     "description": "Made with Pearl to match your classy vibe ",
     "price": 2999,
-    "category": "rings",
+    "category": "necklaces",
     "tags": [
       "for-her",
       "new-in",
@@ -2577,6 +2577,19 @@ export const editableProducts: Product[] = [
     ],
     "images": [
       "/rings/IMG_3180.jpeg"
+    ]
+  },
+  {
+    "id": 925,
+    "name": "Pick a colour and make it you’re necklace ",
+    "description": "Stone necklace customisation available ",
+    "price": 999,
+    "category": "necklaces",
+    "tags": [
+      "necklaces"
+    ],
+    "images": [
+      "/necklaces/IMG_3375.jpeg"
     ]
   }
 ]
