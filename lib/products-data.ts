@@ -2521,5 +2521,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/bracelets/IMG_3238.jpeg"
     ]
+  },
+  {
+    "id": 921,
+    "name": "Rose flower bracelet ",
+    "description": "Handmade with real flower and stainless chain also adjustable ",
+    "price": 349,
+    "category": "bracelets",
+    "tags": [
+      "for-her",
+      "bracelets"
+    ],
+    "images": [
+      "/bracelets/IMG_3244.jpeg"
+    ]
   }
 ]
