@@ -2489,5 +2489,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/earrings/IMG_3052.jpeg"
     ]
+  },
+  {
+    "id": 917,
+    "name": "Moon earrings ",
+    "description": "Handmade with lavender flowers petals with stainless border ",
+    "price": 349,
+    "category": "earrings",
+    "tags": [
+      "for-her",
+      "earrings"
+    ],
+    "images": [
+      "/earrings/IMG_3054.jpeg"
+    ]
   }
 ]
