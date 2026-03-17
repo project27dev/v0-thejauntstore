@@ -2563,5 +2563,20 @@ export const editableProducts: Product[] = [
     "images": [
       "/pendants/IMG_3058.jpeg"
     ]
+  },
+  {
+    "id": 924,
+    "name": "Pearl necklace ",
+    "description": "Made with Pearl to match your classy vibe ",
+    "price": 2999,
+    "category": "rings",
+    "tags": [
+      "for-her",
+      "new-in",
+      "necklaces"
+    ],
+    "images": [
+      "/rings/IMG_3180.jpeg"
+    ]
   }
 ]
