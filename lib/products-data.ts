@@ -1973,20 +1973,6 @@ export const editableProducts: Product[] = [
     "category": "stone-bracelet"
   },
   {
-    "id": 705,
-    "name": "",
-    "price": 0,
-    "images": [
-      "/stone-bracelet/WhatsApp Image 2026-03-05 at 4.54.00 PM.jpeg"
-    ],
-    "tags": [
-      "stone-bracelet",
-      "bracelets"
-    ],
-    "description": "",
-    "category": "stone-bracelet"
-  },
-  {
     "id": 706,
     "name": "Stone bracelets ",
     "price": 299,
