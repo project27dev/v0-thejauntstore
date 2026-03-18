@@ -2595,7 +2595,7 @@ export const editableProducts: Product[] = [
   {
     "id": 926,
     "name": "Rose flower Jhumka ",
-    "description": "Handmade Jhumka with real rose  flowers ",
+    "description": "Handmade Jhumka stainless with real rose flowers ",
     "price": 599,
     "category": "jhumka",
     "tags": [
