@@ -2605,5 +2605,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/jhumka/IMG_3165.jpeg"
     ]
+  },
+  {
+    "id": 927,
+    "name": "Resin bracelet with real flowers ",
+    "description": "Handmade with real flower bracelet stainless and adjustable ",
+    "price": 299,
+    "category": "bracelets",
+    "tags": [
+      "for-her",
+      "bracelets"
+    ],
+    "images": [
+      "/bracelets/9B1E6E18-CB39-43E0-9898-E93F5AEE8092.jpeg"
+    ]
   }
 ]
