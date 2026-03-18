@@ -2643,7 +2643,7 @@ export const editableProducts: Product[] = [
     "id": 929,
     "name": "Blood necklace ",
     "description": "Handmade blood necklace made with resin ",
-    "price": 399,
+    "price": 499,
     "category": "necklaces",
     "tags": [
       "for-her",
