@@ -2638,5 +2638,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/pendants/IMG_9185.jpeg"
     ]
+  },
+  {
+    "id": 929,
+    "name": "Blood necklace ",
+    "description": "Handmade blood necklace made with resin ",
+    "price": 399,
+    "category": "necklaces",
+    "tags": [
+      "for-her",
+      "necklaces"
+    ],
+    "images": [
+      "/necklaces/IMG_9634.jpeg"
+    ]
   }
 ]
