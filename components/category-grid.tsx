@@ -44,6 +44,8 @@ export default function CategoryGrid() {
                 <img
                   src={category.image}
                   alt={category.name}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute bottom-4 left-4">
