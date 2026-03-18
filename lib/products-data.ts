@@ -1796,7 +1796,8 @@ export const editableProducts: Product[] = [
       "pearl",
       "for-her",
       "new-in",
-      "rings"
+      "rings",
+      "matching-sets"
     ],
     "description": "Real rice pearl bracelet and ring you guys can make custom too !",
     "category": "pearl"
@@ -1818,15 +1819,16 @@ export const editableProducts: Product[] = [
   },
   {
     "id": 612,
-    "name": "",
-    "price": 0,
+    "name": "Pearl necklace and bracelets ",
+    "price": 28480,
     "images": [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.12 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "matching-sets"
     ],
-    "description": "",
+    "description": "Handmade pearl jewellery with real pearl ",
     "category": "pearl"
   },
   {
@@ -1837,7 +1839,8 @@ export const editableProducts: Product[] = [
       "/pearl/WhatsApp Image 2026-03-05 at 5.10.14 PM.jpeg"
     ],
     "tags": [
-      "pearl"
+      "pearl",
+      "matching-sets"
     ],
     "description": "",
     "category": "pearl"
@@ -1897,7 +1900,8 @@ export const editableProducts: Product[] = [
       "pearl",
       "for-her",
       "bracelets",
-      "earrings"
+      "earrings",
+      "matching-sets"
     ],
     "description": "Earrings and bracelets with stainless chain ",
     "category": "pearl"
@@ -2429,7 +2433,8 @@ export const editableProducts: Product[] = [
       "iconic",
       "pearl",
       "earrings",
-      "bracelets"
+      "bracelets",
+      "matching-sets"
     ],
     "images": [
       "/rings/IMG_3291_Original.jpeg"
