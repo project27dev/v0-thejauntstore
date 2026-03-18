@@ -9,10 +9,9 @@ function getSecret() {
   return new TextEncoder().encode(secret);
 }
 
-export async function proxy(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Allow public paths through
   if (PUBLIC_PATHS.some((p) => pathname.startsWith(p))) {
     return NextResponse.next();
   }
@@ -45,8 +44,6 @@ export async function proxy(request: NextRequest) {
           status: 401,
           headers: { "Content-Type": "application/json" },
         });
-
-    // Clear the invalid cookie
     response.cookies.set("admin_session", "", { maxAge: 0 });
     return response;
   }
