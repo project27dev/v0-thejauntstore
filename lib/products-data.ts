@@ -2619,5 +2619,19 @@ export const editableProducts: Product[] = [
     "images": [
       "/bracelets/9B1E6E18-CB39-43E0-9898-E93F5AEE8092.jpeg"
     ]
+  },
+  {
+    "id": 928,
+    "name": "Lockets made with real Flowers ",
+    "description": "Handmade resin flower locket with stainless border ",
+    "price": 299,
+    "category": "pendants",
+    "tags": [
+      "for-her",
+      "pendants"
+    ],
+    "images": [
+      "/pendants/IMG_9185.jpeg"
+    ]
   }
 ]
