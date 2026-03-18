@@ -22,7 +22,7 @@ export default function BestsellersSection() {
         {bestsellers.map((item, index) => (
           <div key={index} className="text-center">
             <div className="bg-gray-100 rounded-lg aspect-square mb-4 overflow-hidden">
-              <img src={item.image || "/placeholder.svg"} alt={item.name} className="w-full h-full object-cover" />
+              <img src={item.image || "/placeholder.svg"} alt={item.name} loading="lazy" decoding="async" className="w-full h-full object-cover" />
             </div>
             <h3 className="font-medium text-lg">{item.name}</h3>
           </div>

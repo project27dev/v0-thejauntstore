@@ -4,11 +4,13 @@ import { useState, useEffect, useCallback } from "react"
 import { useSearchParams, useRouter } from "next/navigation"
 import { products, filterProducts, type Product } from "@/lib/products"
 import { Button } from "@/components/ui/button"
-import { SlidersHorizontal, X } from "lucide-react"
+import { SlidersHorizontal, X, ChevronLeft, ChevronRight } from "lucide-react"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import FloatingContact from "@/components/floating-contact"
 import FilterPanel from "@/components/filter-panel"
+
+const PAGE_SIZE = 20
 
 export default function ProductsPage() {
   const searchParams = useSearchParams()
@@ -28,15 +30,17 @@ export default function ProductsPage() {
   const [maxPrice, setMaxPrice] = useState(searchParams.get("maxPrice") ?? "")
   const [sortBy, setSortBy] = useState<"relevance" | "price-low" | "price-high">("relevance")
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(products)
+  const [page, setPage] = useState(Number(searchParams.get("page") ?? 1))
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
 
-  // Sync filters to URL
+  // Sync filters + page to URL
   const syncToUrl = useCallback(
-    (tags: string[], min: string, max: string) => {
+    (tags: string[], min: string, max: string, p: number) => {
       const params = new URLSearchParams()
       if (tags.length > 0) params.set("tags", tags.join(","))
       if (min) params.set("minPrice", min)
       if (max) params.set("maxPrice", max)
+      if (p > 1) params.set("page", String(p))
       const query = params.toString()
       router.replace(query ? `/products?${query}` : "/products", { scroll: false })
     },
@@ -67,29 +71,42 @@ export default function ProductsPage() {
     setFilteredProducts(result)
   }, [selectedTags, minPrice, maxPrice, sortBy])
 
+  const totalPages = Math.ceil(filteredProducts.length / PAGE_SIZE)
+  const pagedProducts = filteredProducts.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
+
   const handleTagToggle = (tag: string) => {
     const next = selectedTags.includes(tag)
       ? selectedTags.filter((t) => t !== tag)
       : [...selectedTags, tag]
     setSelectedTags(next)
-    syncToUrl(next, minPrice, maxPrice)
+    setPage(1)
+    syncToUrl(next, minPrice, maxPrice, 1)
   }
 
   const handleMinPrice = (val: string) => {
     setMinPrice(val)
-    syncToUrl(selectedTags, val, maxPrice)
+    setPage(1)
+    syncToUrl(selectedTags, val, maxPrice, 1)
   }
 
   const handleMaxPrice = (val: string) => {
     setMaxPrice(val)
-    syncToUrl(selectedTags, minPrice, val)
+    setPage(1)
+    syncToUrl(selectedTags, minPrice, val, 1)
   }
 
   const handleClearAll = () => {
     setSelectedTags([])
     setMinPrice("")
     setMaxPrice("")
-    syncToUrl([], "", "")
+    setPage(1)
+    syncToUrl([], "", "", 1)
+  }
+
+  const handlePageChange = (p: number) => {
+    setPage(p)
+    syncToUrl(selectedTags, minPrice, maxPrice, p)
+    window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
   const activeFilterCount = selectedTags.length + (minPrice ? 1 : 0) + (maxPrice ? 1 : 0)
@@ -189,31 +206,87 @@ export default function ProductsPage() {
                 </Button>
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                {filteredProducts.map((product) => (
-                  <div key={product.id} className="group">
-                    <div className="aspect-[2/3] bg-gray-100 rounded-lg overflow-hidden mb-4 group-hover:shadow-lg transition-shadow duration-300">
-                      <img
-                        src={product.images[0] || "/placeholder.svg"}
-                        alt={product.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                    </div>
-                    <div className="text-center">
-                      <h3 className="font-serif text-lg font-medium text-gray-900 mb-2">{product.name}</h3>
-                      <p className="text-gray-600 text-sm mb-2 line-clamp-2">{product.description}</p>
-                      <p className="font-semibold text-gray-900">{product.price} BDT</p>
-                      <div className="flex flex-wrap justify-center gap-1 mt-2">
-                        {product.tags.slice(0, 3).map((tag) => (
-                          <span key={tag} className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">
-                            {tag.replace("-", " ")}
-                          </span>
-                        ))}
+              <>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                  {pagedProducts.map((product) => (
+                    <div key={product.id} className="group">
+                      <div className="aspect-[2/3] bg-gray-100 rounded-lg overflow-hidden mb-4 group-hover:shadow-lg transition-shadow duration-300">
+                        <img
+                          src={product.images[0] || "/placeholder.svg"}
+                          alt={product.name}
+                          loading="lazy"
+                          decoding="async"
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                      <div className="text-center">
+                        <h3 className="font-serif text-lg font-medium text-gray-900 mb-2">{product.name}</h3>
+                        <p className="text-gray-600 text-sm mb-2 line-clamp-2">{product.description}</p>
+                        <p className="font-semibold text-gray-900">{product.price} BDT</p>
+                        <div className="flex flex-wrap justify-center gap-1 mt-2">
+                          {product.tags.slice(0, 3).map((tag) => (
+                            <span key={tag} className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">
+                              {tag.replace("-", " ")}
+                            </span>
+                          ))}
+                        </div>
                       </div>
                     </div>
+                  ))}
+                </div>
+
+                {/* Pagination */}
+                {totalPages > 1 && (
+                  <div className="flex items-center justify-center gap-2 mt-12">
+                    <button
+                      onClick={() => handlePageChange(page - 1)}
+                      disabled={page === 1}
+                      className="p-2 rounded-md border border-gray-300 disabled:opacity-40 hover:bg-gray-50 transition-colors"
+                      aria-label="Previous page"
+                    >
+                      <ChevronLeft className="h-4 w-4" />
+                    </button>
+
+                    {Array.from({ length: totalPages }, (_, i) => i + 1)
+                      .filter((p) => p === 1 || p === totalPages || Math.abs(p - page) <= 2)
+                      .reduce<(number | "…")[]>((acc, p, idx, arr) => {
+                        if (idx > 0 && p - (arr[idx - 1] as number) > 1) acc.push("…")
+                        acc.push(p)
+                        return acc
+                      }, [])
+                      .map((p, idx) =>
+                        p === "…" ? (
+                          <span key={`ellipsis-${idx}`} className="px-2 text-gray-400 select-none">…</span>
+                        ) : (
+                          <button
+                            key={p}
+                            onClick={() => handlePageChange(p as number)}
+                            className={`w-9 h-9 rounded-md text-sm font-medium transition-colors ${
+                              page === p
+                                ? "bg-gray-900 text-white"
+                                : "border border-gray-300 text-gray-700 hover:bg-gray-50"
+                            }`}
+                          >
+                            {p}
+                          </button>
+                        )
+                      )}
+
+                    <button
+                      onClick={() => handlePageChange(page + 1)}
+                      disabled={page === totalPages}
+                      className="p-2 rounded-md border border-gray-300 disabled:opacity-40 hover:bg-gray-50 transition-colors"
+                      aria-label="Next page"
+                    >
+                      <ChevronRight className="h-4 w-4" />
+                    </button>
                   </div>
-                ))}
-              </div>
+                )}
+
+                <p className="text-center text-sm text-gray-500 mt-3">
+                  Page {page} of {totalPages} &mdash; {filteredProducts.length} products
+                </p>
+              </>
             )}
           </div>
         </div>
