@@ -6,7 +6,8 @@
 | Route | File | Type | Notes |
 |-------|------|------|-------|
 | `/` | [app/page.tsx](../app/page.tsx) | Server (composes sections) | Marketing home |
-| `/products` | [app/products/page.tsx](../app/products/page.tsx) | Client | Browse/filter/sort/paginate. Only data-driven page |
+| `/products` | [app/products/page.tsx](../app/products/page.tsx) | Client | Browse/filter/sort/paginate. Cards link to detail pages |
+| `/products/[id]` | [app/products/[id]/page.tsx](../app/products/[id]/page.tsx) | Server (SSG) | Product detail: gallery, info, "Order on WhatsApp" CTA, related items. Pre-rendered per product via `generateStaticParams` |
 | `/products` (loading) | [app/products/loading.tsx](../app/products/loading.tsx) | — | Route loading UI |
 | `/about` | [app/about/page.tsx](../app/about/page.tsx) | — | Brand story / owner |
 | `/admin` | [app/admin/page.tsx](../app/admin/page.tsx) | Client | Product CMS (gated) |

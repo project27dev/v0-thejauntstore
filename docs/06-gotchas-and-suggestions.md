@@ -30,14 +30,16 @@
 These are my recommendations, grouped by goal. Pick a lane and we can spec it out.
 
 ### A. Make it an actual store (highest business value)
-1. **Product detail pages** (`/products/[id]`). Right now cards link nowhere — a
-   customer can't see one item, more photos, or details. This is the biggest gap.
-2. **"Order on WhatsApp" CTA per product.** Since there's no checkout, the realistic
-   conversion path is a per-product button that deep-links to WhatsApp with the
-   product name/id prefilled (`wa.me/...?text=...`). Cheap, high impact.
-3. **Decide on cart/checkout.** If you want real transactions, that's a bigger build
-   (cart state, a payment provider — locally e.g. bKash/SSLCOMMERZ, or Stripe). If
-   not, lean fully into the catalog + WhatsApp model and remove the dead cart icons.
+1. ✅ **DONE — Product detail pages** (`/products/[id]`). SSG page at
+   [app/products/[id]/page.tsx](../app/products/[id]/page.tsx) with image gallery
+   ([components/product-gallery.tsx](../components/product-gallery.tsx)), info, tags,
+   related products. Browse cards now link to it.
+2. ✅ **DONE — "Order on WhatsApp" CTA per product.** Detail pages show a deep-linked
+   button ([components/order-whatsapp-button.tsx](../components/order-whatsapp-button.tsx))
+   that opens WhatsApp prefilled with the product name/id/price. Number + link builder
+   centralized in [lib/contact.ts](../lib/contact.ts).
+3. **No cart/checkout — by decision.** The store stays catalog + WhatsApp. The header
+   `ShoppingBag` icon is still decorative; consider removing it for clarity (low priority).
 
 ### B. Connect the homepage to real data
 4. **Drive home sections from tags.** `NewInSection`, `BestsellersSection`,
