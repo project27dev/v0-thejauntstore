@@ -1,7 +1,7 @@
 # THEJAUNTSTORE — Project Docs
 
 Internal documentation for **The Jaunt Store** (`thejauntstore`), a handcrafted
-jewelry storefront. These docs exist so a future session (human or AI) can quickly
+qjewelry storefront. These docs exist so a future session (human or AI) can quickly
 understand *where things are* and *how they connect* without re-reading the whole tree.
 
 > Generated 2026-06-20 from a full read of the repo. If you change architecture,

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react"
 import { useSearchParams, useRouter } from "next/navigation"
+import Link from "next/link"
 import { products, filterProducts, type Product } from "@/lib/products"
 import { Button } from "@/components/ui/button"
 import { SlidersHorizontal, X, ChevronLeft, ChevronRight } from "lucide-react"
@@ -46,6 +47,25 @@ export default function ProductsPage() {
     },
     [router]
   )
+
+  // Re-sync state FROM the URL when it changes via navigation (e.g. sidebar /
+  // category links land on /products?filter=... while we're already on this page).
+  // useState initializers only run on mount, so without this the filters go stale.
+  useEffect(() => {
+    const tagsParam = searchParams.get("tags")
+    const legacyParam = searchParams.get("filter")
+    const nextTags = tagsParam
+      ? tagsParam.split(",").filter(Boolean)
+      : legacyParam
+        ? [legacyParam]
+        : []
+
+    setSelectedTags(nextTags)
+    setMinPrice(searchParams.get("minPrice") ?? "")
+    setMaxPrice(searchParams.get("maxPrice") ?? "")
+    setPage(Number(searchParams.get("page") ?? 1))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams.toString()])
 
   // Re-filter whenever state changes
   useEffect(() => {
@@ -209,7 +229,7 @@ export default function ProductsPage() {
               <>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                   {pagedProducts.map((product) => (
-                    <div key={product.id} className="group">
+                    <Link href={`/products/${product.id}`} key={product.id} className="group block">
                       <div className="aspect-[2/3] bg-gray-100 rounded-lg overflow-hidden mb-4 group-hover:shadow-lg transition-shadow duration-300">
                         <img
                           src={product.images[0] || "/placeholder.svg"}
@@ -231,7 +251,7 @@ export default function ProductsPage() {
                           ))}
                         </div>
                       </div>
-                    </div>
+                    </Link>
                   ))}
                 </div>
 
